@@ -3,6 +3,7 @@ import logo from "@/app/assets/rain_logo2.png";
 import mobileLogo from "@/app/assets/rain-logo-sm.png";
 import Image from "next/image";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const links = [
   { label: "About", href: "/#about" },
   { label: "How to register", href: "/#how-to-register" },
