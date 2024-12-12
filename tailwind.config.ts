@@ -14,6 +14,9 @@ module.exports = {
         lightGreen: "#EAEBE7",
         dark: "#1D1D1D"
       },
+      backgroundImage: {
+        'gold-gradient': 'linear-gradient(96.93deg, #DFB341 -8.74%, #F8C748 104.32%)',
+      },
       keyframes: {
         "bounce-slowTop": {
           '0%, 100%': { transform: "translateY(4%)" },
