@@ -1,250 +1,3 @@
-export const FlowCurve = () => {
-  return (
-    <svg
-      width="60"
-      height="56"
-      viewBox="0 0 60 56"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M55.6284 50L22.0284 50C12.4187 50 4.62842 42.2098 4.62842 32.6L4.62842 4.35"
-        stroke="#323232"
-        stroke-width="1.63125"
-        stroke-linecap="round"
-        stroke-dasharray="3.26 4.35"
-      />
-      <path
-        d="M54.8127 45.65C54.8127 45.65 55.9002 48.1875 59.1627 50C55.9002 51.8125 54.8127 54.35 54.8127 54.35"
-        stroke="#323232"
-        stroke-width="1.63125"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-      <path
-        d="M59.1628 50H53.1815"
-        stroke="#323232"
-        stroke-width="1.63125"
-        stroke-linecap="round"
-      />
-      <circle
-        cx="4.62844"
-        cy="4.35"
-        r="3.53437"
-        fill="white"
-        stroke="#323232"
-        stroke-width="1.63125"
-      />
-    </svg>
-  );
-};
-
-export const FlowCurveReverse = () => {
-  return (
-    <svg
-      width="61"
-      height="56"
-      viewBox="0 0 61 56"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M5.28564 50L38.8856 50C48.4954 50 56.2856 42.2098 56.2856 32.6L56.2856 4.35"
-        stroke="#323232"
-        stroke-width="1.63125"
-        stroke-linecap="round"
-        stroke-dasharray="3.26 4.35"
-      />
-      <path
-        d="M6.10132 45.65C6.10132 45.65 5.01382 48.1875 1.75132 50C5.01382 51.8125 6.10132 54.35 6.10132 54.35"
-        stroke="#323232"
-        stroke-width="1.63125"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-      <path
-        d="M1.75129 50H7.73254"
-        stroke="#323232"
-        stroke-width="1.63125"
-        stroke-linecap="round"
-      />
-      <circle
-        cx="4.35"
-        cy="4.35"
-        r="3.53437"
-        transform="matrix(-1 0 0 1 60.6356 0)"
-        fill="white"
-        stroke="#323232"
-        stroke-width="1.63125"
-      />
-    </svg>
-  );
-};
-
-export const FlowStraight = () => {
-  return (
-    <svg
-      width="83"
-      height="85"
-      viewBox="0 0 83 85"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M42.603 5L42.603 80.4727"
-        stroke="black"
-        stroke-width="1.62891"
-        stroke-linecap="round"
-        stroke-dasharray="3.26 4.34"
-      />
-      <circle
-        cx="42.603"
-        cy="5"
-        r="3.5293"
-        fill="white"
-        stroke="black"
-        stroke-width="1.62891"
-      />
-      <path
-        d="M46.9468 79.8418C46.9468 79.8418 44.4129 80.9277 42.603 84.1855C40.7931 80.9277 38.2593 79.8418 38.2593 79.8418"
-        stroke="black"
-        stroke-width="1.62891"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-      <path
-        d="M42.603 84.1855V78.2129"
-        stroke="black"
-        stroke-width="1.62891"
-        stroke-linecap="round"
-      />
-    </svg>
-  );
-};
-
-export const FlowSnake = () => {
-  return (
-    <svg
-      width="104"
-      height="53"
-      viewBox="0 0 104 53"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M101.763 6.70972V19.2312C101.763 24.1721 97.7581 28.1775 92.8172 28.1775L12.5806 28.1775C7.63977 28.1775 3.63441 32.1828 3.63441 37.1237V49.6452"
-        stroke="#1D1D1D"
-        stroke-width="0.83871"
-        stroke-linecap="round"
-        stroke-dasharray="1.68 2.24"
-      />
-      <path
-        d="M5.87097 50.344C5.87097 50.344 4.56631 50.9031 3.63441 52.5806C2.70251 50.9031 1.39785 50.344 1.39785 50.344"
-        stroke="#1D1D1D"
-        stroke-width="0.83871"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-      <path
-        d="M3.63441 52.5806V49.5054"
-        stroke="#1D1D1D"
-        stroke-width="0.83871"
-        stroke-linecap="round"
-      />
-      <circle
-        cx="101.763"
-        cy="5.5913"
-        r="1.8172"
-        fill="white"
-        stroke="#1D1D1D"
-        stroke-width="0.83871"
-      />
-    </svg>
-  );
-};
-
-export const Minus = () => {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="18"
-      height="18"
-      viewBox="0 0 18 18"
-      fill="none"
-    >
-      <path
-        d="M3.9375 9H14.4375"
-        stroke="#323232"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-    </svg>
-  );
-};
-
-export const Plus = () => {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="16"
-      height="17"
-      viewBox="0 0 16 17"
-      fill="none"
-    >
-      <path
-        d="M9.04348 1.12551C9.04348 0.848762 8.93354 0.583349 8.73785 0.387659C8.54216 0.191969 8.27675 0.0820312 8 0.0820312C7.72325 0.0820312 7.45784 0.191969 7.26215 0.387659C7.06646 0.583349 6.95652 0.848762 6.95652 1.12551V7.03855H1.04348C0.766731 7.03855 0.501318 7.14849 0.305628 7.34418C0.109937 7.53987 0 7.80528 0 8.08203C0 8.35878 0.109937 8.62419 0.305628 8.81988C0.501318 9.01557 0.766731 9.12551 1.04348 9.12551H6.95652V15.0386C6.95652 15.3153 7.06646 15.5807 7.26215 15.7764C7.45784 15.9721 7.72325 16.082 8 16.082C8.27675 16.082 8.54216 15.9721 8.73785 15.7764C8.93354 15.5807 9.04348 15.3153 9.04348 15.0386V9.12551H14.9565C15.2333 9.12551 15.4987 9.01557 15.6944 8.81988C15.8901 8.62419 16 8.35878 16 8.08203C16 7.80528 15.8901 7.53987 15.6944 7.34418C15.4987 7.14849 15.2333 7.03855 14.9565 7.03855H9.04348V1.12551Z"
-        fill="#323232"
-      />
-    </svg>
-  );
-};
-
-export const StepStraight = () => {
-  return (
-    <svg
-      width="91"
-      height="51"
-      viewBox="0 0 91 51"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M6 23.7188L86.0781 23.7188"
-        stroke="#4C4C4C"
-        stroke-width="1.92188"
-        stroke-linecap="round"
-        stroke-dasharray="3.84 5.12"
-      />
-
-      <circle
-        cx="6"
-        cy="23.7188"
-        r="4.16406"
-        transform="rotate(-90 6 23.7188)"
-        fill="white"
-        stroke="#4C4C4C"
-        stroke-width="1.92188"
-      />
-
-      <path
-        d="M84.9141 18.5938C84.9141 18.5938 86.1953 21.5833 90.0391 23.7188C86.1953 25.8542 84.9141 28.8438 84.9141 28.8438"
-        stroke="#4C4C4C"
-        stroke-width="1.92188"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-
-      <path
-        d="M90.0391 23.7188L82.9922 23.7188"
-        stroke="#4C4C4C"
-        stroke-width="1.92188"
-        stroke-linecap="round"
-      />
-    </svg>
-  )
-}
-
 export const Cloud = () => {
   return (
     <svg className="mx-auto mb-2" width="99" height="67" viewBox="0 0 99 67" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -295,30 +48,52 @@ export const LoadingIndicator = (props) => {
   );
 };
 
-export const BackArrow = () => {
+export const Menu = () => {
   return (
-    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M10 20L11.7625 18.2375L4.7875 11.25L20 11.25V8.75L4.7875 8.75L11.7625 1.7625L10 0L0 10L10 20Z" fill="#17171B"/>
-</svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="27"
+      height="27"
+      viewBox="0 0 27 27"
+      fill="none"
+    >
+      <path
+        d="M3.375 7.875H23.625"
+        stroke="#4C4E1C"
+        strokeWidth="1.44231"
+        strokeLinecap="round"
+      />
+      <path
+        d="M3.375 13.5H23.625"
+        stroke="#4C4E1C"
+        strokeWidth="1.44231"
+        strokeLinecap="round"
+      />
+      <path
+        d="M3.375 19.125H23.625"
+        stroke="#4C4E1C"
+        strokeWidth="1.44231"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+};
 
-  )
-}
-
-export const SuccessIcon = () => {
+export const CloseMenu = () => {
   return (
-    <svg className="w-24 md:w-full max-w-[100px] h-fit" width="136" height="135" viewBox="0 0 136 135" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="67.1117" cy="67.5004" r="52.4013" fill="#F8C748" stroke="#F8C748" stroke-width="1.77632"/>
-<g clip-path="url(#clip0_184_2200)">
-<path d="M90.2422 53.3898L59.1567 84.4753L44.9092 70.2278L48.5617 66.5752L59.1567 77.1443L86.5897 49.7372L90.2422 53.3898Z" fill="white"/>
-</g>
-<rect x="36.9155" y="36.4155" width="60.3947" height="60.3947" stroke="#F8C748" stroke-width="1.77632"/>
-<path d="M132.836 67.5C132.836 103.308 103.808 132.336 68 132.336C32.1923 132.336 3.16447 103.308 3.16447 67.5C3.16447 31.6923 32.1923 2.66447 68 2.66447C103.808 2.66447 132.836 31.6923 132.836 67.5Z" stroke="#F8C748" stroke-width="5.32895"/>
-<defs>
-<clipPath id="clip0_184_2200">
-<rect x="36.0273" y="35.5273" width="62.1711" height="62.1711" fill="white"/>
-</clipPath>
-</defs>
-</svg>
-
-  )
-}
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M4.29279 4.29259C4.48031 4.10512 4.73462 3.99981 4.99979 3.99981C5.26495 3.99981 5.51926 4.10512 5.70679 4.29259L9.99979 8.58559L14.2928 4.29259C14.385 4.19708 14.4954 4.1209 14.6174 4.06849C14.7394 4.01608 14.8706 3.9885 15.0034 3.98734C15.1362 3.98619 15.2678 4.01149 15.3907 4.06177C15.5136 4.11205 15.6253 4.18631 15.7192 4.2802C15.8131 4.37409 15.8873 4.48574 15.9376 4.60864C15.9879 4.73154 16.0132 4.86321 16.012 4.99599C16.0109 5.12877 15.9833 5.25999 15.9309 5.382C15.8785 5.504 15.8023 5.61435 15.7068 5.70659L11.4138 9.99959L15.7068 14.2926C15.8889 14.4812 15.9897 14.7338 15.9875 14.996C15.9852 15.2582 15.88 15.509 15.6946 15.6944C15.5092 15.8798 15.2584 15.985 14.9962 15.9873C14.734 15.9895 14.4814 15.8888 14.2928 15.7066L9.99979 11.4136L5.70679 15.7066C5.51818 15.8888 5.26558 15.9895 5.00339 15.9873C4.74119 15.985 4.49038 15.8798 4.30497 15.6944C4.11956 15.509 4.01439 15.2582 4.01211 14.996C4.00983 14.7338 4.11063 14.4812 4.29279 14.2926L8.58579 9.99959L4.29279 5.70659C4.10532 5.51907 4 5.26476 4 4.99959C4 4.73443 4.10532 4.48012 4.29279 4.29259Z"
+        fill="#4C4E1C"
+      />
+    </svg>
+  );
+};

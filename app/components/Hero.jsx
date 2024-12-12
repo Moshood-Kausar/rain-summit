@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="container mx-auto pt-[72px] pb-4 md:pb-[105px] px-4 md:px-10 lg:px-20 relative">
+    <section className="container mx-auto pt-[118px] md:pt-[160px] pb-14 md:pb-[105px] px-4 md:px-10 lg:px-20 relative">
       <div>
         <h1 className="text-lg md:text-xl text-center font-semibold mx-auto w-fit h-fit rounded-full px-4 md:px-[33px] py-[10px] leading-normal text-[#4C4E1C] border border-dashed border-[#4C4E1C] mb-[18px] md:mb-10">
           RAIN Summit 1.0
@@ -15,8 +15,8 @@ export default function Hero() {
           years of experience, we bring you RAIN Summit 1.0 - where the future
           of leadership unfolds.{" "}
         </p>
-        <div className="flex justify-center gap-8 md:gap-[50px]">
-          <div className="border-2 border-[#4C4E1C] flex min-h-[68px]">
+        <div className="flex flex-col md:flex-row justify-center gap-8 md:gap-[50px]">
+          <div className="border-2 border-[#4C4E1C] flex w-fit min-h-[68px]">
             <div className="hero-stat text-white px-7 flex">
               <p className="my-auto text-lg md:text-xl">Date</p>
             </div>
@@ -24,11 +24,11 @@ export default function Hero() {
               <p className="my-auto text-lg md:text-xl">January 25, 2025</p>
             </div>
           </div>
-          <div className="border-2 border-[#4C4E1C] flex min-h-[68px]">
+          <div className="border-2 border-[#4C4E1C] flex w-fit min-h-[68px]">
             <div className="hero-stat text-white px-2.5 flex">
               <p className="my-auto text-lg md:text-xl">Location</p>
             </div>
-            <div className="flex px-6">
+            <div className="flex px-3">
               <p className="my-auto text-lg md:text-xl">
                 Aweni Arena Event Centre, Oke Ado, Ibadan
               </p>
