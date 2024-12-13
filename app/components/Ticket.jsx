@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Ticket() {
   return (
     <main className="flex flex-col gap-10 py-20">
@@ -17,7 +19,10 @@ export default function Ticket() {
       </section>
 
       {/* the ticket images should be here */}
-      <section></section>
+      <section className="flex flex-col md:flex-row gap-5 items-center justify-between">
+        <Image src={'/earlyBird.png'} width={600} height={300} alt="ticket-pass" />
+        <Image src={'/lateBird.png'} width={600} height={300}  alt='ticket-pass'/>
+      </section>
 
       <div>
         <button className="bg-gold-gradient px-8 py-3 rounded-lg inline-block">
