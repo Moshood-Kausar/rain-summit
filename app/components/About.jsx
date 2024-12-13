@@ -20,7 +20,7 @@ const whyData = [
 ]
 export const About = () => {
     return (
-        <section className="py-11">
+        <section className="py-11" id="about">
             <h2 className="text-primary text-xs md:text-2xl font-medium">About</h2>
             <h3 className="text-dark mt-2.5 text-lg md:text-3xl font-semibold">Why You Can&apos;t Miss RAIN Summit 1.0</h3>
             <div className={`mt-8 md:mt-11 grid grid-cols-1 md:grid-cols-2 gap-y-9 md:gap-y-[50px]`}>

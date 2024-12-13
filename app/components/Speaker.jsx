@@ -20,7 +20,7 @@ export default function Speakers() {
   ];
 
   return (
-    <main className="flex flex-col gap-10 py-20">
+    <main className="flex flex-col gap-10 py-20" id="speakers">
       <div className="">
         <h3 className="bg-gold-gradient bg-clip-text text-transparent text-2xl font-medium">
           Speakers

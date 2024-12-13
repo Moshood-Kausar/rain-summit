@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { ListIndicator } from "../../public/svg";
-import Link from "next/link";
+import { Button } from "./shared/Button";
 
 export default function Magazine() {
   const topicInterest = [
@@ -45,7 +45,17 @@ export default function Magazine() {
     },
     {
       id: 4,
-      label: <p className="font-semibold"> 25,000 Naira will be paid for publication <br /> ( <span className="font-normal">Exemptions fees apply to RAIN Alumni, Honrarary Professors, and other distinguished Individuals and academics</span> )</p>,
+      label: (
+        <p className="font-semibold">
+          {" "}
+          25,000 Naira will be paid for publication <br /> (
+          <span className="font-normal">
+            Exemptions fees apply to RAIN Alumni, Honrarary Professors, and
+            other distinguished Individuals and academics
+          </span>
+          )
+        </p>
+      ),
     },
   ];
 
@@ -72,12 +82,12 @@ export default function Magazine() {
       </section>
 
       <section className="my-5">
-        <h2 className="font-semibold text-2xl mb-4">Topic Interest</h2>
+        <h2 className="font-semibold text-2xl mb-4">Topics of interest</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-12">
           {topicInterest.map((item, index) => (
             <div
               key={index}
-              className={`px-5 py-3 rounded-md  ${
+              className={`px-6 py-3 rounded-full w-fit min-h-[70px] flex justify-center items-center text-center ${
                 item.id % 2 === 1
                   ? "text-white bg-gradient-to-br from-[#95772B] to-[#666828]"
                   : "bg-[#F8C748] "
@@ -89,16 +99,20 @@ export default function Magazine() {
         </div>
       </section>
 
-      <section className="flex flex-col md:flex-row items-center gap-10 mb-20">
-        <div className="md:w-1/2">
+      <section className="flex flex-col lg:flex-row items-center gap-10 mb-20">
+        <div className="flex flex-col lg:w-1/2">
           <div className="">
-            <h2 className="font-semibold text-2xl mb-5">Submission Guidlines</h2>
+            <h2 className="font-semibold text-2xl mb-5">
+              Submission Guidlines
+            </h2>
 
             <div className="flex flex-col gap-3">
               {guidelineList.map((item, index) => (
                 <ul key={index} className="flex gap-2">
-                  <ListIndicator />
-                  <li>{item.label}</li>
+                  <div className="flex">
+                    <ListIndicator />
+                  </div>
+                  <li className="flex">{item.label}</li>
                 </ul>
               ))}
             </div>
@@ -106,17 +120,19 @@ export default function Magazine() {
 
           <div className="mt-10">
             <h2 className="font-semibold text-2xl">Deadline</h2>
-            <p>Submit your entry before 20th December</p>
-            <Link href={'/'} className="border border-black py-2 px-7 rounded-lg bg-[#FFEEC4] mt-10">Submit an article</Link>
+            <p className="mb-[14px]">Submit your entry before 20th December</p>
+            <Button variant={"outlined"} href="https://docs.google.com/forms/d/e/1FAIpQLSdit-q9YWzcZojGW_wBaQ_vjO7_CO_scDx1hu4AKy3Dt4Rymw/viewform">Submit an article</Button>
           </div>
         </div>
 
-        <div>
+        <div className="flex w-full h-full lg:w-1/2">
           <Image
             src={"/ArticleImage.png"}
-            alt="image-placeholder"
+            alt="#"
+            aria-hidden="true"
             width={600}
             height={400}
+            className="flex"
           />
         </div>
       </section>

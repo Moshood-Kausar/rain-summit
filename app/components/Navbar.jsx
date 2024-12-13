@@ -14,8 +14,8 @@ export const Navbar = () => {
     { label: "About", href: "/#about", type: "link", variant: "text" },
     { label: "Speakers", href: "/#speakers", type: "link", variant: "text" },
     { label: "Tickets", href: "/#tickets", type: "link", variant: "text" },
-    { label: "Get Tickets", href: "/#", type: "button", variant: "primary" },
-    { label: "Submit article", href: "/#", type: "button", variant: "outlined" },
+    { label: "Get Tickets", href: "https://eventprime.co/e/rain-summit-1-0", type: "button", variant: "primary" },
+    { label: "Submit article", href: "https://docs.google.com/forms/d/e/1FAIpQLSdit-q9YWzcZojGW_wBaQ_vjO7_CO_scDx1hu4AKy3Dt4Rymw/viewform", type: "button", variant: "outlined" },
   ];
 
   return (
@@ -86,6 +86,7 @@ export const Navbar = () => {
                 variant={link.variant}
                 className="h-fit min-h-10 text-2xl md:text-base whitespace-nowrap"
                 key={idx}
+                href={link.href}
               >
                 {link.label}
               </Button>
