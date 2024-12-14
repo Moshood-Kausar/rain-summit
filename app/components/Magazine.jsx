@@ -33,40 +33,19 @@ export default function Magazine() {
   const guidelineList = [
     {
       id: 1,
-      label: (
-        <p className="text-sm md:text-lg mt-1.5">
-          {"Articles should be between 1-4 pages,"}
-        </p>
-      ),
+      label: "Articles should be between 1-4 pages",
     },
     {
       id: 2,
-      label: (
-        <p className="text-sm md:text-lg mt-1.5">
-          {"Content must be original and authored by you"}
-        </p>
-      ),
+      label: "Content must be original and authored by you",
     },
     {
       id: 3,
-      label: (
-        <p className="text-sm md:text-lg mt-1.5">
-          {"All articles are subject to approval"}
-        </p>
-      ),
+      label: "All articles are subject to approval",
     },
     {
       id: 4,
-      label: (
-        <p className="font-semibold text-sm md:text-lg mt-1.5">
-          25,000 Naira will be paid for publication <br /> ( 
-          <span className="text-sm md:text-lg mt-1.5 font-normal">
-             Exemptions fees apply to RAIN Alumni, Honrarary Professors, and
-            other distinguished Individuals and academics
-          </span> 
-           )
-        </p>
-      ),
+      label: "Article submission is free",
     },
   ];
 
@@ -93,7 +72,7 @@ export default function Magazine() {
       </section>
 
       <section className="my-5">
-        <h2 className="text-dark my-2.5 text-lg md:text-3xl font-semibold">
+        <h2 className="text-dark my-3 text-lg md:text-2xl font-semibold">
           Topics of interest
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-12">
@@ -112,27 +91,29 @@ export default function Magazine() {
         </div>
       </section>
 
-      <section className="flex flex-col lg:flex-row items-center gap-10 mb-20">
+      <section className="flex flex-col lg:flex-row items-center gap-10 mb-20 md:mt-5">
         <div className="flex flex-col lg:w-1/2">
           <div className="">
-            <h2 className="text-dark my-2.5 text-lg md:text-3xl font-semibold mb-3">
+            <h2 className="text-dark my-2.5 text-lg md:text-2xl font-semibold mb-3">
               Submission Guidlines
             </h2>
 
             <div className="flex flex-col gap-3">
               {guidelineList.map((item, index) => (
-                <ul key={index} className="flex gap-2">
+                <ul key={index} className="flex items-center gap-2">
                   <div className="flex">
                     <ListIndicator />
                   </div>
-                  <li className="flex">{item.label}</li>
+                  <li className="flex text-sm md:text-lg mt-1.5">
+                    {item.label}
+                  </li>
                 </ul>
               ))}
             </div>
           </div>
 
           <div className="mt-10">
-            <h2 className="text-dark mt-2.5 text-lg md:text-3xl font-semibold">
+            <h2 className="text-dark mt-2.5 text-lg md:text-2xl font-semibold">
               Deadline
             </h2>
             <p className="text-sm md:text-lg my-1.5">
