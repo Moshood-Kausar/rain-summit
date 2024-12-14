@@ -5,13 +5,15 @@ export default function Ticket() {
   return (
     <section className="flex flex-col gap-10 py-20" id="tickets">
       <div>
-        <h2 className="bg-gold-gradient bg-clip-text text-transparent text-2xl font-medium">
+        <h2 className="text-primary text-xs md:text-2xl font-medium">
           Tickets
         </h2>
 
         <div>
-          <h2 className="font-semibold text-3xl">Grab Your Tickets Now</h2>
-          <p>
+          <h2 className="text-dark mt-2.5 text-lg md:text-3xl font-semibold">
+            Grab Your Tickets Now
+          </h2>
+          <p className="text-sm md:text-lg mt-1.5">
             As the rain revitalises the earth, so can bold leadership rejuvenate
             industries, communities and lives. Will you arise and take the lead?
             Grab your umbrellas and get your tickets!
@@ -41,7 +43,13 @@ export default function Ticket() {
       </div>
 
       <div>
-        <Button variant="primary" href="https://eventprime.co/e/rain-summit-1-0" className="!px-8">Get Tickets</Button>
+        <Button
+          variant="primary"
+          href="https://eventprime.co/e/rain-summit-1-0"
+          className="!px-8"
+        >
+          Get Tickets
+        </Button>
       </div>
     </section>
   );

@@ -22,13 +22,15 @@ export default function Speakers() {
   return (
     <main className="flex flex-col gap-10 py-20" id="speakers">
       <div className="">
-        <h3 className="bg-gold-gradient bg-clip-text text-transparent text-2xl font-medium">
+        <h3 className="text-primary text-xs md:text-2xl font-medium">
           Speakers
         </h3>
 
         <div>
-          <h4 className="font-semibold text-3xl">Meet the Visionaries</h4>
-          <p>{`Thunderous voices of transformation, lightning voices of inspiration. Our lineup of speakers isn't one you want to miss. GUESS WHO?`}</p>
+          <h4 className="text-dark mt-2.5 text-lg md:text-3xl font-semibold">
+            Meet the Visionaries
+          </h4>
+          <p className="text-sm md:text-lg mt-1.5">{`Thunderous voices of transformation, lightning voices of inspiration. Our lineup of speakers isn't one you want to miss. GUESS WHO?`}</p>
         </div>
       </div>
 
