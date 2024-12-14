@@ -18,7 +18,7 @@ export default function Ticket() {
     },
   ];
   return (
-    <section className="flex flex-col gap-10 py-20" id="tickets">
+    <section className="flex flex-col gap-10 py-10 py-20" id="tickets">
       <div>
         <h2 className="text-primary text-xs md:text-2xl font-medium">
           Tickets

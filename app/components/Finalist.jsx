@@ -37,7 +37,7 @@ export default function Finalist() {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 place-items-center gap-2">
+      <div className="grid grid-cols-3 place-items-center gap-5">
         {teamList.map((speaker) => (
           <div key={speaker.id} className="flex flex-col items-center gap-2">
             <Image
