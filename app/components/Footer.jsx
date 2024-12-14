@@ -35,7 +35,7 @@ export default function Footer() {
 
             <Link className="flex items-center gap-1.5" href={`https://www.linkedin.com/company/robotics-and-artificial-intelligence-innovators-network/`}>
               <FaLinkedin className="text-lg md:text-xl min-w-5"/>
-              <p className="text-[10px] md:text-sm lg:text-[16px]">Robotics and Artificial INtelligence - INnovators Network</p>
+              <p className="text-[10px] md:text-sm lg:text-[16px]">Robotics and Artificial Intelligence Nigeria</p>
             </Link>
           </div>
         </div>

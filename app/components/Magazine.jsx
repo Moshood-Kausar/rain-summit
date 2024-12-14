@@ -18,7 +18,7 @@ export default function Magazine() {
     },
     {
       id: 4,
-      label: "Innovationa and technology Trends",
+      label: "Innovation and Technology Trends",
     },
     {
       id: 5,
@@ -33,20 +33,20 @@ export default function Magazine() {
   const guidelineList = [
     {
       id: 1,
-      label: "Articles should be between 1-4 pages",
+      label: "Articles should be between 1-4 pages.",
     },
     {
       id: 2,
-      label: "Content must be original and authored by you",
-    },
-    {
+      label: "Content must be original and authored by you.",
+    },{
       id: 3,
-      label: "All articles are subject to approval",
+      label: "All article submission is free but subject to approval.",
     },
-    {
-      id: 4,
-      label: "Article submission is free",
-    },
+    // {
+    //   id: 4,
+    //   label: "All articles are subject to approval",
+    // },
+    
   ];
 
   return (
@@ -117,7 +117,7 @@ export default function Magazine() {
               Deadline
             </h2>
             <p className="text-sm md:text-lg my-1.5">
-              Submit your entry before 20th December
+              Submit your entry before 20th December.
             </p>
             <Button
               variant={"outlined"}
