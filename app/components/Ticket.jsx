@@ -18,7 +18,7 @@ export default function Ticket() {
     },
   ];
   return (
-    <section className="flex flex-col gap-10 py-10 py-20" id="tickets">
+    <section className="flex flex-col gap-10 py-10 lg:py-20" id="tickets">
       <div>
         <h2 className="text-primary text-xs md:text-2xl font-medium">
           Tickets
@@ -38,13 +38,15 @@ export default function Ticket() {
 
       <div className="flex flex-col md:flex-row gap-10 md:gap-5 lg:gap-[100px] items-start md:items-center justify-between max-w-7xl">
         {ticketsImage.map((i, idx) => (
-          <Image
-            key={idx}
-            src={i.image}
-            alt="tickets"
-            width={i.size ? 500 : 320}
-            height={i.size ? 200 : 150}
-          />
+          <div key={idx} className="flex">
+            <Image
+              key={idx}
+              src={i.image}
+              alt="tickets"
+              width={i.size ? 500 : 320}
+              height={i.size ? 200 : 150}
+            />
+          </div>
         ))}
       </div>
 
