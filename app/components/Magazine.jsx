@@ -33,44 +33,55 @@ export default function Magazine() {
   const guidelineList = [
     {
       id: 1,
-      label: "Articles should be between 1-4 pages",
+      label: (
+        <p className="text-sm md:text-lg mt-1.5">
+          {"Articles should be between 1-4 pages,"}
+        </p>
+      ),
     },
     {
       id: 2,
-      label: "Content must be original and authored by you",
+      label: (
+        <p className="text-sm md:text-lg mt-1.5">
+          {"Content must be original and authored by you"}
+        </p>
+      ),
     },
     {
       id: 3,
-      label: "All articles are subject to approval",
+      label: (
+        <p className="text-sm md:text-lg mt-1.5">
+          {"All articles are subject to approval"}
+        </p>
+      ),
     },
     {
       id: 4,
       label: (
-        <p className="font-semibold">
-          {" "}
-          25,000 Naira will be paid for publication <br /> (
-          <span className="font-normal">
-            Exemptions fees apply to RAIN Alumni, Honrarary Professors, and
+        <p className="font-semibold text-sm md:text-lg mt-1.5">
+          25,000 Naira will be paid for publication <br /> ( 
+          <span className="text-sm md:text-lg mt-1.5 font-normal">
+             Exemptions fees apply to RAIN Alumni, Honrarary Professors, and
             other distinguished Individuals and academics
-          </span>
-          )
+          </span> 
+           )
         </p>
       ),
     },
   ];
 
   return (
-    <main className="flex flex-col gap-8">
-      <section>
-        <h2 className="bg-gold-gradient bg-clip-text text-transparent text-2xl font-medium mb-5">
+    <main className="flex flex-col gap-7 py-11">
+      <section className="">
+        <h2 className="text-primary text-xs md:text-2xl font-medium">
           Magazine
         </h2>
 
         <div>
-          <h2 className="font-semibold text-3xl mb-4">
+          <h2 className="text-dark mt-2.5 text-lg md:text-3xl font-semibold">
             Call for Article Submissions
           </h2>
-          <p>
+          <p className="text-sm md:text-lg mt-1.5">
             Do you have compelling insights, a unique perspective, or an
             inspiring story to share? RAIN Magazine invites professors,
             storytellers, experts, and enthusiasts to contribute to its upcoming
@@ -82,7 +93,9 @@ export default function Magazine() {
       </section>
 
       <section className="my-5">
-        <h2 className="font-semibold text-2xl mb-4">Topics of interest</h2>
+        <h2 className="text-dark my-2.5 text-lg md:text-3xl font-semibold">
+          Topics of interest
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-12">
           {topicInterest.map((item, index) => (
             <div
@@ -93,7 +106,7 @@ export default function Magazine() {
                   : "bg-[#F8C748] "
               }`}
             >
-              <p className="text-xs">{item.label}</p>
+              <p className="text-sm md:text-lg">{item.label}</p>
             </div>
           ))}
         </div>
@@ -102,7 +115,7 @@ export default function Magazine() {
       <section className="flex flex-col lg:flex-row items-center gap-10 mb-20">
         <div className="flex flex-col lg:w-1/2">
           <div className="">
-            <h2 className="font-semibold text-2xl mb-5">
+            <h2 className="text-dark my-2.5 text-lg md:text-3xl font-semibold mb-3">
               Submission Guidlines
             </h2>
 
@@ -119,9 +132,18 @@ export default function Magazine() {
           </div>
 
           <div className="mt-10">
-            <h2 className="font-semibold text-2xl">Deadline</h2>
-            <p className="mb-[14px]">Submit your entry before 20th December</p>
-            <Button variant={"outlined"} href="https://docs.google.com/forms/d/e/1FAIpQLSdit-q9YWzcZojGW_wBaQ_vjO7_CO_scDx1hu4AKy3Dt4Rymw/viewform">Submit an article</Button>
+            <h2 className="text-dark mt-2.5 text-lg md:text-3xl font-semibold">
+              Deadline
+            </h2>
+            <p className="text-sm md:text-lg my-1.5">
+              Submit your entry before 20th December
+            </p>
+            <Button
+              variant={"outlined"}
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdit-q9YWzcZojGW_wBaQ_vjO7_CO_scDx1hu4AKy3Dt4Rymw/viewform"
+            >
+              Submit an article
+            </Button>
           </div>
         </div>
 

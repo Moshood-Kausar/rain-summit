@@ -20,15 +20,15 @@ export default function Judges() {
   ];
 
   return (
-    <main className="flex flex-col gap-10 py-20">
+    <section className="flex flex-col gap-10 py-11">
       <div className="">
-        <h3 className="bg-gold-gradient bg-clip-text text-transparent text-2xl font-medium">
-          Judges
-        </h3>
+        <h3 className="text-primary text-xs md:text-2xl font-medium">Judges</h3>
 
         <div>
-          <h4 className="font-semibold text-3xl">The RAIN Makers</h4>
-          <p>{`we call the the RAIN makers, the storm finest, ready to ensure the strongest ideas rise above the flood. Anricipate the RAIN makers`}</p>
+          <h4 className="text-dark mt-2.5 text-lg md:text-3xl font-semibold">
+            The RAIN Makers
+          </h4>
+          <p className="text-sm md:text-lg mt-1.5">{`we call the the RAIN makers, the storm finest, ready to ensure the strongest ideas rise above the flood. Anricipate the RAIN makers`}</p>
         </div>
       </div>
 
@@ -44,6 +44,6 @@ export default function Judges() {
           </div>
         ))}
       </div>
-    </main>
+    </section>
   );
 }
