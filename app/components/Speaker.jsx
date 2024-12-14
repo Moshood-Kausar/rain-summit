@@ -34,7 +34,7 @@ export default function Speakers() {
         </div>
       </div>
 
-      <div className="flex justify-between items-center gap-2 md:gap-5">
+      <div className="flex justify-between items-center gap-5">
         {speakerList.map((speaker) => (
           <div key={speaker.id} className="flex">
             <Image
