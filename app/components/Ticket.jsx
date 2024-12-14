@@ -2,6 +2,21 @@ import Image from "next/image";
 import { Button } from "./shared/Button";
 
 export default function Ticket() {
+  const ticketsImage = [
+    {
+      id: 1,
+      image: "/earlyTicket.png",
+    },
+    {
+      id: 2,
+      image: "/exhibition.png",
+      size: true,
+    },
+    {
+      id: 3,
+      image: "/lateBird.png",
+    },
+  ];
   return (
     <section className="flex flex-col gap-10 py-20" id="tickets">
       <div>
@@ -22,24 +37,15 @@ export default function Ticket() {
       </div>
 
       <div className="flex flex-col md:flex-row gap-10 md:gap-5 lg:gap-[100px] items-start md:items-center justify-between max-w-7xl">
-        <div className="flex">
+        {ticketsImage.map((i, idx) => (
           <Image
-            src={"/earlyBird.png"}
-            width={600}
-            height={300}
-            alt="Early bird ticket"
-            className="flex max-h-[150px] md:max-h-full w-auto"
+            key={idx}
+            src={i.image}
+            alt="tickets"
+            width={i.size ? 500 : 320}
+            height={i.size ? 200 : 150}
           />
-        </div>
-        <div className="flex">
-          <Image
-            src={"/lateBird.png"}
-            width={600}
-            height={300}
-            alt="Late bird ticket"
-            className="flex max-h-[150px] md:max-h-full w-auto"
-          />
-        </div>
+        ))}
       </div>
 
       <div>

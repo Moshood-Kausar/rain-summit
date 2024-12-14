@@ -28,7 +28,7 @@ export default function Judges() {
           <h4 className="text-dark mt-2.5 text-lg md:text-3xl font-semibold">
             The RAIN Makers
           </h4>
-          <p className="text-sm md:text-lg mt-1.5">{`we call the the RAIN makers, the storm finest, ready to ensure the strongest ideas rise above the flood. Anricipate the RAIN makers`}</p>
+          <p className="text-sm md:text-lg mt-1.5">{`We call them the RAIN Makers, the storm finest, ready to ensure the strongest ideas rise above the flood. Anticipate the RAIN Makers!`}</p>
         </div>
       </div>
 
