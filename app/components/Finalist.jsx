@@ -37,7 +37,7 @@ export default function Finalist() {
         </div>
       </div>
 
-      <div className="flex justify-between items-center">
+      <div className="grid grid-cols-3 place-items-center gap-2">
         {teamList.map((speaker) => (
           <div key={speaker.id} className="flex flex-col items-center gap-2">
             <Image
@@ -45,7 +45,7 @@ export default function Finalist() {
               alt="Speaker-profile"
               width={200}
               height={200}
-              className="flex"
+              className="flex w-auto"
             />
 
             <p className="text-dark mt-2.5 text-lg md:text-3xl font-semibold">
