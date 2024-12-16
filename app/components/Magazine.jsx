@@ -79,7 +79,7 @@ export default function Magazine() {
           {topicInterest.map((item, index) => (
             <div
               key={index}
-              className={`px-6 py-3 rounded-full w-fit min-h-[70px] flex justify-center items-center text-center ${
+              className={`px-6 py-3 rounded-full w-fit min-h-14 md:min-h-[70px] flex justify-center items-center text-center ${
                 item.id % 2 === 1
                   ? "text-white bg-gradient-to-br from-[#95772B] to-[#666828]"
                   : "bg-[#F8C748] "
