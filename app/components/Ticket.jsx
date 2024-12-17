@@ -42,7 +42,7 @@ export default function Ticket() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-5 lg:gap-[50px] items-center max-w-7xl">
         {ticketsImage.map((i, idx) => (
-          <div key={idx} className="flex lg:w-1/4">
+          <div key={idx} className="flex">
             <Image
               key={idx}
               src={i.image}
