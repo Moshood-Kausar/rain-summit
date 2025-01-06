@@ -15,7 +15,7 @@ export const Navbar = () => {
     { label: "Speakers", href: "/#speakers", type: "link", variant: "text" },
     { label: "Tickets", href: "/#tickets", type: "link", variant: "text" },
     { label: "Get Tickets", href: "https://eventprime.co/e/rain-summit-1-0", type: "button", variant: "primary" },
-    { label: "Submit article", href: "https://docs.google.com/forms/d/e/1FAIpQLSdit-q9YWzcZojGW_wBaQ_vjO7_CO_scDx1hu4AKy3Dt4Rymw/viewform", type: "button", variant: "outlined" },
+    { label: "Top Ten", href: "/#top-ten", type: "button", variant: "outlined" },
   ];
 
   return (

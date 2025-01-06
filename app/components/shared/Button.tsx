@@ -47,12 +47,12 @@ export const Button: React.FC<ButtonProps> = ({
       onClick={onClick}
       onBlur={onBlur}
       disabled={disabled}
-      className={`${className} ${fullWidth ? "w-full" : "w-fit"} ${
+      className={`${className} ${fullWidth ? "w-full" : "w-fit"} ${href? "": "px-[1.125rem] py-3 gap-2 min-h-[50px]"} ${
         variantStyles[variant]
-      } px-[1.125rem] rounded-lg transition-all flex justify-center items-center py-3 gap-2 min-h-[50px]`}
+      } rounded-lg transition-all flex justify-center items-center`}
     >
       {href ? (
-        <Link href={href} target="_blank">{loading ? <LoadingIndicator /> : children}</Link>
+        <Link href={href} target={variant === 'primary' ? "_blank": "_parent"} className="py-3 gap-2 min-h-[50px] px-[1.125rem]">{loading ? <LoadingIndicator /> : children}</Link>
       ) : (
         <>{loading ? <LoadingIndicator /> : children}</>
       )}

@@ -121,9 +121,10 @@ export default function Magazine() {
             </p>
             <Button
               variant={"outlined"}
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdit-q9YWzcZojGW_wBaQ_vjO7_CO_scDx1hu4AKy3Dt4Rymw/viewform"
+              disabled={true}
+              // href="https://docs.google.com/forms/d/e/1FAIpQLSdit-q9YWzcZojGW_wBaQ_vjO7_CO_scDx1hu4AKy3Dt4Rymw/viewform"
             >
-              Submit an article
+              Closed
             </Button>
           </div>
         </div>
