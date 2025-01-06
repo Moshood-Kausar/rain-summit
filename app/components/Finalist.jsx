@@ -109,7 +109,6 @@ export default function Finalist() {
             <h4 className="text-dark mt-2.5 text-lg md:text-3xl font-semibold">
               Special Recognition
             </h4>
-            <p className="text-sm md:text-lg mt-1.5">{`Our special recognition award winners`}</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12 mt-10">
           {specialRecognition.map((item, index) => (
