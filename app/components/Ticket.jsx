@@ -10,11 +10,15 @@ export default function Ticket() {
     {
       id: 2,
       image: "/exhibition.png",
-      size: true,
+      // size: true,
     },
     {
       id: 3,
       image: "/lateBird.png",
+    },
+    {
+      id: 4,
+      image: "/fourthTicket.png",
     },
   ];
   return (
@@ -36,15 +40,16 @@ export default function Ticket() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row gap-10 md:gap-5 lg:gap-[100px] items-start md:items-center justify-between max-w-7xl">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-5 lg:gap-[50px] items-center max-w-7xl">
         {ticketsImage.map((i, idx) => (
           <div key={idx} className="flex">
             <Image
               key={idx}
               src={i.image}
               alt="tickets"
-              width={i.size ? 500 : 320}
-              height={i.size ? 200 : 150}
+              width={350}
+              height={180}
+              className="flex w-full"
             />
           </div>
         ))}
