@@ -14,7 +14,7 @@ export const speakerList = [
     name: " Kemisola Bolarinwa",
     position: "Founder/CEO Nextwear Technologies",
     profile: "/Kemisola.jpeg",
-    bio: "Kemisola Bolarinwa is the CEO of Rain Summit. She is a seasoned entrepreneur and a visionary leader. She is passionate about transforming lives and communities through bold leadership. She is a sought-after speaker and a mentor to many young leaders. She is the author of the bestselling book, 'The Rainmaker'.",
+    bio: "",
   },
   {
     id: 2,
@@ -133,7 +133,7 @@ export default function Speakers() {
           ))}
         </Swiper>
 
-        <Button variant="primary" href="/speakers">
+        <Button variant="primary" href="/speakers" className="!px-8 lg:mt-5">
           Full speaker lineup
         </Button>
       </div>
