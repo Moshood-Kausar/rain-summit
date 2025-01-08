@@ -6,10 +6,12 @@ export default function Ticket() {
     {
       id: 1,
       image: "/early-bird.png",
+      name: "Early Bird"
     },
     {
       id: 2,
       image: "/late-comer.png",
+      name: "Late Comer"
     },
   ];
   return (
@@ -37,7 +39,7 @@ export default function Ticket() {
             <Image
               key={idx}
               src={i.image}
-              alt="tickets"
+              alt={i.name}
               width={779}
               height={353}
               className="flex w-full max-w-[400px]"

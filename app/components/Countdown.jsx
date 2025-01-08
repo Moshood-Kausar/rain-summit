@@ -46,7 +46,7 @@ const Countdown = ({ targetDate }) => {
 
   return (
     <div
-      className={`${poppins.className} flex justify-between shrink-0 w-fit pt-4 md:pt-0 gap-4`}
+      className={`${poppins.className} flex justify-between shrink-0 w-fit gap-4`}
     >
       <div className="flex items-center gap-1">
         <h4 className="flex items-center justify-center text-xs md:text-xl mb-0.5">{days}</h4>
