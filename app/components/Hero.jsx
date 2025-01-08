@@ -1,3 +1,5 @@
+import { Button } from "./shared/Button";
+
 export default function Hero() {
   return (
     <section className="container mx-auto pt-[118px] md:pt-[160px] pb-14 md:pb-[105px] px-4 md:px-10 lg:px-20 relative">
@@ -34,6 +36,15 @@ export default function Hero() {
               </p>
             </div>
           </div>
+        </div>
+        <div className="flex justify-center pt-8 md:pt-[50px]">
+          <Button
+            variant="primary"
+            href="https://eventprime.co/e/rain-summit-1-0"
+            className="!px-8"
+          >
+            Get Your Ticket Now
+          </Button>
         </div>
       </div>
     </section>

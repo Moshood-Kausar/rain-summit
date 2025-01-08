@@ -1,12 +1,10 @@
 import { About } from "./components/About";
-import Speakers from "./components/Speaker";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
 import { Navbar } from "./components/Navbar";
-import Judges from "./components/Judges";
-import Magazine from "./components/Magazine";
+import Speakers from "./components/Speaker";
+import Hero from "./components/Hero";
 import Ticket from "./components/Ticket";
 import Finalist from "./components/Finalist";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -20,9 +18,7 @@ export default function Home() {
           <About />
           <Finalist />
           <Speakers />
-          <Judges />
           <Ticket />
-          <Magazine />
         </div>
       </main>
       <Footer />

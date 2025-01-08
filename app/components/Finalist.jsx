@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Finalist() {
   const teamList = [
@@ -22,27 +23,8 @@ export default function Finalist() {
     },
   ];
 
-  const topTen = [
-    { name: 'Agro-Alliance', school: 'Ladoke Akintola University of Technology (LAUTECH)', category: 'Food Security' },
-    { name: 'Ctrl See', school: 'Redeemer\'s University', category: 'Special Education' },
-    { name: 'DermPal', school: 'Covenant University', category: 'Healthcare' },
-    { name: 'Feedbag Agrihub', school: 'Lloyd\'s Maritime Institute', category: 'Food Security' }, // Assuming 'Food Security & E-Commerce' is primarily 'Food Security'
-    { name: 'Hydrosentinel', school: 'N/A', category: 'National Security' },
-    { name: 'ImpactHub', school: 'Ahmadu Bello University Zaria', category: 'Special Education' },
-    { name: 'INWANG', school: 'Guru Innovation HUb', category: 'E-Commerce' },
-    { name: 'JET Team', school: 'BELLS UNIVERSITY OF TECHNOLOGY', category: 'National Security' },
-    { name: 'Team CropSafe', school: 'Ahmadu Bello University Zaria', category: 'Food Security' },
-    { name: 'VITAL LINK', school: 'Bells University Of Technology', category: 'Healthcare' }
-  ];
-
-  const specialRecognition = [
-  { name: 'Kelly Smart', category: 'Food Security', school: 'Bayero University, Kano', specialRecognition: null }, 
-  { name: 'Nerds', category: 'Healthcare', school: 'Lagos State University (LASU)', specialRecognition: null },
-  { name: 'Oncolens', category: 'Healthcare', school: 'University of Ibadan', specialRecognition: null }
-];
-
   return (
-    <main className="flex flex-col gap-10 py-5 md:py-20" id="top-three">
+    <main className="flex flex-col gap-10 pt-5 md:pt-20" id="top-three">
       <div>
         <h3 className="text-primary text-xs md:text-2xl font-medium">
           Top 3 Teams
@@ -74,62 +56,18 @@ export default function Finalist() {
         ))}
       </div>
 
-      <div className="pt-5" id="top-ten">
+      <div>
         <h3 className="text-primary text-xs md:text-2xl font-medium">
           Top 10 Teams
         </h3>
 
         <div>
           <h4 className="text-dark mt-2.5 text-lg md:text-3xl font-semibold">
-            Top 10 Teams Unveiled
+            The top 10 teams have been unveiled.
           </h4>
+          <p className="text-sm md:text-lg mt-1.5">Check them out on the <Link href={'https://hackathon.rainigeria.com/#top-ten'} target="_blank" className="font-medium underline underline-offset-4">Hackathon Website!</Link></p>
         </div>
       </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12">
-          {topTen.map((item, index) => (
-            <div
-              key={index}
-              className={`px-6 py-3 rounded-xl w-full min-h-14 md:min-h-[70px] flex flex-col justify-center items-center text-center ${
-                index % 3 === 0
-                ? "text-white bg-gradient-to-br from-[#95772B] to-[#666828]"
-                : index % 3 === 1 ?
-                "text-[#4C4E1C] border border-[#4C4E1C] bg-hero"
-                  : "bg-[#F8C748]"
-              }`}
-            >
-              <p className="text-sm md:text-lg">Team: {item.name}</p>
-              <p className="text-sm md:text-lg">Category: {item.category}</p>
-              <p className="text-sm md:text-lg">School: {item.school}</p>
-            </div>
-          ))}
-        </div>
-        <div>
-          <div>
-            <h4 className="text-dark mt-2.5 text-lg md:text-3xl font-semibold">
-              Special Recognition
-            </h4>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12 mt-10">
-          {specialRecognition.map((item, index) => (
-            <div
-              key={index}
-              className={`px-6 py-3 rounded-xl w-full min-h-14 md:min-h-[70px] flex flex-col justify-center items-center text-center ${
-                index % 3 === 0
-                ? "text-white bg-gradient-to-br from-[#95772B] to-[#666828]"
-                : index % 3 === 1 ?
-                "text-[#4C4E1C] border border-[#4C4E1C] bg-hero"
-                  : "bg-[#F8C748]"
-              }`}
-            >
-              <p className="text-sm md:text-lg">Team: {item.name}</p>
-              <p className="text-sm md:text-lg">Category: {item.category}</p>
-              <p className="text-sm md:text-lg">School: {item.school}</p>
-            </div>
-          ))}
-        </div>
-        </div>
-
     </main>
   );
 }

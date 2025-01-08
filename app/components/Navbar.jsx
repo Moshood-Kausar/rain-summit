@@ -6,24 +6,32 @@ import { Button } from "./shared/Button";
 import { CloseMenu, Menu } from "@/app/assets/svg";
 import logo from "@/app/assets/rain_logo2.png";
 import mobileLogo from "@/app/assets/rain-logo-sm.png";
+import Countdown from '@/app/components/Countdown';
 
 export const Navbar = () => {
   const [isNavOpened, setIsNavOpened] = useState(false);
+  const [updateShown, setUpdateShown] = useState(true);
 
   const navLinks = [
     { label: "About", href: "/#about", type: "link", variant: "text" },
     { label: "Speakers", href: "/#speakers", type: "link", variant: "text" },
     { label: "Tickets", href: "/#tickets", type: "link", variant: "text" },
     { label: "Get Tickets", href: "https://eventprime.co/e/rain-summit-1-0", type: "button", variant: "primary" },
-    { label: "Top Ten", href: "/#top-ten", type: "button", variant: "outlined" },
+    { label: "Top Ten", href: "https://hackathon.rainigeria.com/#top-ten", type: "button", variant: "outlined" },
   ];
 
   return (
     <header
       className={`fixed top-0 z-50 w-full transition duration-200 bg-white md:bg-transparent`}
     >
+     <div style={updateShown? {display: 'flex'} : {display: 'none'}} className="relative flex-col md:flex-row justify-center items-center text-center px-4 md:px-10 lg:px-20 py-4 hero-stat text-white min-h-10 font-medium gap-2">
+        The wait is almost over! Tick tock: <Countdown targetDate={'2025-01-25T00:00:00'} /> <Link href={'https://eventprime.co/e/rain-summit-1-0'} target="_blank" className="underline underline-offset-4">
+          Get Your Ticket Now.
+        </Link> 
+        <button onClick={()=>setUpdateShown(false)} className="scale-125 hover:scale-110 absolute right-4 text-2xl font-medium leading-none transition duration-200">&times;</button>
+      </div> 
       <nav
-        className={`relative flex justify-between items-center h-16 md:h-[88px] transition duration-200 w-full max-w-screen-2xl px-4 md:px-10 lg:px-20 mx-auto`}
+      className={`relative flex justify-between items-center h-16 md:h-[88px] transition duration-200 w-full max-w-screen-2xl px-4 md:px-10 lg:px-20 mx-auto`}
       >
         <Link href={"/"} className="flex items-center gap-1 z-50 w-fit md:w-1/5">
           <Image
