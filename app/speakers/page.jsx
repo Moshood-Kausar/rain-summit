@@ -15,7 +15,9 @@ function truncateBio(bio, wordCount) {
 export default function Speakers() {
   const [updateShown, setUpdateShown] = useState(true);
   return (
-    <main className={`${updateShown? "pt-[120px] md:pt-[56px]": "pt-0 md:pt-0"}`}>
+    <main
+      className={`${updateShown ? "pt-[120px] md:pt-[56px]" : "pt-0 md:pt-0"}`}
+    >
       <Navbar updateShown={updateShown} setUpdateShown={setUpdateShown} />
 
       <section
@@ -33,29 +35,31 @@ export default function Speakers() {
           </p>
         </div>
 
-        {speakerList.map((speaker) => (
-          <div
-            key={speaker.id}
-            className="border rounded-xl flex flex-col gap-3 lg:flex-row lg:items-center min-h-80 overflow-hidden"
-          >
-            <div className="h-80 lg:w-4/12 relative">
-              <Image
-                src={speaker.profile}
-                alt={`Profile of ${speaker.name}`}
-                fill
-                className="object-cover h-full"
-              />
-            </div>
+        <div className="flex flex-col gap-10 lg:gap-20">
+          {speakerList.map((speaker) => (
+            <div
+              key={speaker.id}
+              className="border border-lightGreen rounded-xl flex flex-col gap-3 lg:flex-row lg:items-center overflow-hidden shadow-sm"
+            >
+              <div className="h-96 lg:w-4/12 relative">
+                <Image
+                  src={speaker.profile}
+                  alt={`Profile of ${speaker.name}`}
+                  fill
+                  className="object-cover h-full"
+                />
+              </div>
 
-            <div className="lg:w-8/12 px-3 md:px-4 lg:px-5">
-              <h2 className="font-semibold text-lg">{speaker.name}</h2>
-              <p className="text-sm text-gray-500">{speaker.position}</p>
-              <p className="text-clip my-5 text-sm">
-                {truncateBio(speaker.bio, 100)}
-              </p>
+              <div className="lg:w-8/12 px-3 md:px-4 lg:px-5">
+                <h2 className="font-semibold text-lg">{speaker.name}</h2>
+                <p className="text-sm text-gray-500">{speaker.position}</p>
+                <p className="text-clip my-5 text-sm">
+                  {truncateBio(speaker.bio, 150)}
+                </p>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </section>
 
       <Footer />
