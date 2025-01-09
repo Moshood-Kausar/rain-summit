@@ -35,21 +35,21 @@ export const speakerList = [
     id: 4,
     name: "Professor Abiodun Musa Aibinu",
     position: "Vice Chancellor of Summit University",
-    profile: "/abiodunmusa.jfif",
-    bio: "Abiodun Musa AIBINU (Ph.D.), is a highly-motivated career driven achiever with over Eighteen (18) years working experience in the field of: Information and Communication Technology (ICT); Robotics, Mechatronics Engineering, Telecommunication Engineering, Project Management, Spectrum Management, Industrial Automation, Teaching and Research in the field of Artificial Intelligence, ICT and Robotics. He received: National Diploma award from The Polytechnic, Ibadan, Nigeria; BSc degree from Obafemi Awolowo University (OAU), Ile-Ife, Nigeria; M.sc degree from Blekinge Institute of Technology (BTH), Sweden and Doctoral degree from International Islamic University Malaysia, (IIUM), Malaysia. He has been actively involved in teaching, supervision, mentoring and research activities at various universities in Nigeria and Malaysia. He is presently Vice-Chancellor, Chief Executive, and Academic Officer at Summit University, Offa, Kwara state, Nigeria and a research-resource person to: Nigerian Air Force, Nigerian Army, and National Defense Headquarters and other agencies having memorandum of Understanding with FUT Minna. However, prior to venturing into academic field, he has worked with: MTN Communication (Nigeria) Limited; GS Telecom (Nigeria) Limited; DCC Satellite and Networks Limited; Oganla Consulting and Investment (OCI) limited; Communications Associates (COMSAC) (Nigeria) Limited just to mention but a few. Professor Aibinu has participated and won several academics and research awards at various international and national exhibitions and was nominated for 2012 promising researcher award and best teacher award at IIUM Malaysia. He has also won several research grant awards in and outside Nigeria among which include Nigerian Communications Commission research grants for 2014 and 2015; TETFUND Research grants 2013 etc. He has authored and co-authored several publications in both local and international journals and conferences. Some of his published work are highly cited in the academic field.",
+    profile: "/abiodunmusa.jpg",
+    bio: "Abiodun Musa AIBINU (Ph.D.), is a highly-motivated career driven achiever with over Eighteen (18) years working experience in the field of: Information and Communication Technology (ICT); Robotics, Mechatronics Engineering, Telecommunication Engineering, Project Management, Spectrum Management, Industrial Automation, Teaching and Research in the field of Artificial Intelligence, ICT and Robotics. He received: National Diploma award from The Polytechnic, Ibadan, Nigeria; BSc degree from Obafemi Awolowo University (OAU), Ile-Ife, Nigeria; M.sc degree from Blekinge Institute of Technology (BTH), Sweden and Doctoral degree from International Islamic University Malaysia, (IIUM), Malaysia. \n He has been actively involved in teaching, supervision, mentoring and research activities at various universities in Nigeria and Malaysia. He is presently Vice-Chancellor, Chief Executive, and Academic Officer at Summit University, Offa, Kwara state, Nigeria and a research-resource person to: Nigerian Air Force, Nigerian Army, and National Defense Headquarters and other agencies having memorandum of Understanding with FUT Minna. \n However, prior to venturing into academic field, he has worked with: MTN Communication (Nigeria) Limited; GS Telecom (Nigeria) Limited; DCC Satellite and Networks Limited; Oganla Consulting and Investment (OCI) limited; Communications Associates (COMSAC) (Nigeria) Limited just to mention but a few. \n Professor Aibinu has participated and won several academics and research awards at various international and national exhibitions and was nominated for 2012 promising researcher award and best teacher award at IIUM Malaysia. He has also won several research grant awards in and outside Nigeria among which include Nigerian Communications Commission research grants for 2014 and 2015; TETFUND Research grants 2013 etc. He has authored and co-authored several publications in both local and international journals and conferences. Some of his published work are highly cited in the academic field.",
   },
   {
     id: 5,
     name: "Pharm Olu Akanmu",
     position: "Ex CEO Opay, Director of Lagos Business School",
-    profile: "/Oluakanmu.jfif",
+    profile: "/Oluakanmu.jpg",
     bio: "Experienced commercial leader with an unusual diversity of experience in consumer goods, manufacturing, healthcare, telecommunications, financial services and Fintech at very senior levels with successful track records. A deep wealth of cross-industry innovative experience invaluable in providing strong strategic leadership and board-governance to organizations. Was President/ Co-CEO of OPay-Nigeria, one of Nigeria's largest Fintech platforms with Unicorn valuation. Successful track records in growing and scaling businesses at executive (C) levels in telecommunications, banking and fintech industries invaluable in providing strategic leadership and governance to businesses at the convergence of these and similar industries. Was Executive Director-Retail Banking, First City Monument Bank; Chief Marketing Officer at Airtel Nigeria (mobile telecoms network with more than 23m subscribers) with responsibility to lead commercial strategy and achieve revenue targets of more than USD 1.5billion annually. Previously Managing Director/ CEO- Retail Banking at former BankPHB. Start-up experience at MTN-Nigeria playing critical roles in the phenomenal growth of MTN-Nigeria to a network in excess of ten million subscribers in its first five years. Was the Chief Architect of the phenomenal success of the MTN brand and consumer marketing strategy in Nigeria, a key reason for the legacy advantage and out-performance of MTN among its peers in the Nigeria telecommunications industry. Multi-industry retail and consumer business expert. Has shown consistent strong adaptive skills to cross to new territories / industry contexts and deliver excellent results. A thought-leader in Strategy, Marketing and Management whose articles and pubic presentations are highly-sought in the consumer business community. A transformational leader, an enterprise digital transformation leader, strong galvanizer of people and organization builder.",
   },
   {
     id: 6,
     name: "Dr Adesola Adeduntan",
     position: "President Sequoia Financial Limited & Fmr CEO First Bank Group",
-    profile: "/AdesolaAdeduntan.jfif",
+    profile: "/AdesolaAdeduntan.jpg",
     bio: "Adesola Adeduntan is an accomplished banking transformational leader, with over 30 years experience, who served as the Chief Executive Officer of FirstBank Group between 2016 - 2024 providing strategic leadership to its over 25,000 employees across its Nigerian, African and International businesses. He became the Executive Director/Group Chief Financial Officer of the Bank in July 2014. Under his leadership, FirstBank successfully implemented one of the most comprehensive corporate transformation programs of any bank in Africa, cutting across customer led innovation, building a digitalized bank, repairing its balance sheet, culture change, rebuilding human capital, reinventing HR practices and safeguarding its assets for the digital age. He is widely credited with the turnaround of the FirstBank's fortunes from an ROE position of 0.6% in FY2015 to over 20% in FY2023, increasing profitability from N10bn to N317bn in 2023 and restoring the Bank's credit rating to parity with its peers and sovereign. He led the digital transformation of the Bank growing its number of digital customers from 0.6m to over 23m and number of customer accounts from 10.9m to over 42m. Prior to joining First Bank, he was the pioneer Director, Chief Financial Officer, Business Manager at the African Finance Corporation with overall responsibility for running its Finance and Treasury Division comprising Finance, Controls, Treasury and Funds Management, Banking Operations and Settlement and Information Technology Departments. At AFC, he led the team that designed and delivered the AFC's international investment grade credit rating of A3, which made AFC the second highest rated entity in Africa. He was also previously a Senior Vice-President, Chief Financial Officer of Citibank's Nigerian subsidiary and also a Senior Manager at KPMG. He is a member of the Bretton Woods Committee, a nonpartisan network of prominent global citizens that works to demonstrate the value of international economic cooperation and foster strong, effective Bretton Woods institutions as forces for global well-being. He has an MBA from Cranfield University and was awarded an Honorary Doctorate of Science from the same institution in 2022. His first degree was a Doctor of Veterinary Medicine from the University of Ibadan. He is a Fellow of the Chartered Institute of Bankers and Institute of Chartered Accountants of Nigeria.",
   },
   {
@@ -63,22 +63,22 @@ export const speakerList = [
   {
     id: 8,
     name: "Babatunde Fatai",
-    position: "Manager, emerging Technologies",
+    position: "Manager, Emerging Technologies",
     profile: "/Babatunde.jpeg",
     bio: "Babatunde Fatai is a visionary leader in Africa's emerging technologies ecosystem, driving innovation and digital transformation across the continent. He is currently the emerging Technologies Manager at MTN Nigeria and has worked for and collaborated with multinationals such as PwC and Unilever, he pioneers advancements in AI, spatial computing, cloud computing, and other emerging technologies. A passionate futurist and advocate for youth empowerment and tech adoption, Babatunde hosts the XRAtlas Podcast and founded the African XR Community, inspiring a connected and innovative Africa. ",
   },
   // {
   //   id: 9,
   //   name: "Joshua Olaiya ",
-  //   position: "Founder, CEO and Board Chairman ",
+  //   position: "Founder, CEO and Board Chairman of iAurora",
   //   profile: "/JoshuaOlaiya.png",
-  //   bio: "Joshua Olaiya, Founder, CEO and Board Chairman of iAurora, also Founded the biggest tech podcast/community in Africa with a 20K podcast subcriber and had recently founded Africa's first, only and biggest rocket and drone manufacturing company. He's a young self-taught robotics engineer with seven years of experience. He began coding at 13 with Scratch, Python, and C++, developed my first game and mobile app at 15, and crafted a hand-gesture robot prototype for the disabled at 17. His achievements, including recognition from Tesla, BBC, Deutsche Welle, T-Motor, Silverbird TV, Anybotics, Agility Robotics & notable social media influencers, placed him among the top 200 influencers globally, alongside figures like Bill Gates & other top global leaders. Additionally, He once holds the 18th rank in robotics worldwide by Favikon. His entrepreneurial spirit earned me an entrepreneur programme from the University of Oxford, where he also holds a diploma in electrical and electronic engineering from the U.K, complemented by City and Guild certification.",
+  //   bio: "Joshua Olaiya, Founder, CEO and Board Chairman of iAurora, also Founded the biggest tech podcast/community in Africa with a 20K podcast subcriber and had recently founded Africa's first, only and biggest rocket and drone manufacturing company. He's a young self-taught robotics engineer with seven years of experience. He began coding at 13 with Scratch, Python, and C++, developed my first game and mobile app at 15, and crafted a hand-gesture robot prototype for the disabled at 17. \n His achievements, including recognition from Tesla, BBC, Deutsche Welle, T-Motor, Silverbird TV, Anybotics, Agility Robotics & notable social media influencers, placed him among the top 200 influencers globally, alongside figures like Bill Gates & other top global leaders. \n Additionally, He once holds the 18th rank in robotics worldwide by Favikon. His entrepreneurial spirit earned me an entrepreneur programme from the University of Oxford, where he also holds a diploma in electrical and electronic engineering from the U.K, complemented by City and Guild certification.",
   // },
 ];
 
 export default function Speakers() {
   return (
-    <main className="flex flex-col gap-10 py-5 md:py-20" id="speakers">
+    <main className="flex flex-col gap-10 pt-5 md:pt-20" id="speakers">
       <div className="">
         <h3 className="text-primary text-xs md:text-2xl font-medium">
           Speakers
@@ -88,7 +88,7 @@ export default function Speakers() {
           <h4 className="text-dark mt-2.5 text-lg md:text-3xl font-semibold">
             Meet the Visionaries
           </h4>
-          <p className="text-sm md:text-lg mt-1.5">{`Thunderous voices of transformation, lightning voices of inspiration. Our lineup of speakers isn't one you want to miss. GUESS WHO?`}</p>
+          <p className="text-sm md:text-lg mt-1.5">{`Thunderous voices of transformation, lightning voices of inspiration. Our lineup of speakers isn't one you want to miss.`}</p>
         </div>
       </div>
 
@@ -134,7 +134,7 @@ export default function Speakers() {
         </Swiper>
 
         <Button variant="primary" href="/speakers" className="!px-8 lg:mt-5">
-          Full speaker lineup
+          Full Speaker Lineup
         </Button>
       </div>
     </main>

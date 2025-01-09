@@ -52,7 +52,7 @@ export const Button: React.FC<ButtonProps> = ({
       } rounded-lg transition-all flex justify-center items-center`}
     >
       {href ? (
-        <Link href={href} target={"_blank"} className="py-3 gap-2 min-h-[50px] px-[1.125rem]">{loading ? <LoadingIndicator /> : children}</Link>
+        <Link href={href} target={href==='/speakers'? "_parent" : "_blank"} className="py-3 gap-2 min-h-[50px] px-[1.125rem]">{loading ? <LoadingIndicator /> : children}</Link>
       ) : (
         <>{loading ? <LoadingIndicator /> : children}</>
       )}
