@@ -67,13 +67,13 @@ export const speakerList = [
     profile: "/Babatunde.jpeg",
     bio: "Babatunde Fatai is a visionary leader in Africa's emerging technologies ecosystem, driving innovation and digital transformation across the continent. He is currently the emerging Technologies Manager at MTN Nigeria and has worked for and collaborated with multinationals such as PwC and Unilever, he pioneers advancements in AI, spatial computing, cloud computing, and other emerging technologies. A passionate futurist and advocate for youth empowerment and tech adoption, Babatunde hosts the XRAtlas Podcast and founded the African XR Community, inspiring a connected and innovative Africa. ",
   },
-  {
-    id: 9,
-    name: "Joshua Olaiya ",
-    position: "Founder, CEO and Board Chairman of iAurora",
-    profile: "/JoshuaOlaiya.png",
-    bio: "Joshua Olaiya, Founder, CEO and Board Chairman of iAurora, also Founded the biggest tech podcast/community in Africa with a 20K podcast subcriber and had recently founded Africa's first, only and biggest rocket and drone manufacturing company. He's a young self-taught robotics engineer with seven years of experience. He began coding at 13 with Scratch, Python, and C++, developed my first game and mobile app at 15, and crafted a hand-gesture robot prototype for the disabled at 17. \n His achievements, including recognition from Tesla, BBC, Deutsche Welle, T-Motor, Silverbird TV, Anybotics, Agility Robotics & notable social media influencers, placed him among the top 200 influencers globally, alongside figures like Bill Gates & other top global leaders. \n Additionally, He once holds the 18th rank in robotics worldwide by Favikon. His entrepreneurial spirit earned me an entrepreneur programme from the University of Oxford, where he also holds a diploma in electrical and electronic engineering from the U.K, complemented by City and Guild certification.",
-  },
+  // {
+  //   id: 9,
+  //   name: "Joshua Olaiya ",
+  //   position: "Founder, CEO and Board Chairman of iAurora",
+  //   profile: "/JoshuaOlaiya.png",
+  //   bio: "Joshua Olaiya, Founder, CEO and Board Chairman of iAurora, also Founded the biggest tech podcast/community in Africa with a 20K podcast subcriber and had recently founded Africa's first, only and biggest rocket and drone manufacturing company. He's a young self-taught robotics engineer with seven years of experience. He began coding at 13 with Scratch, Python, and C++, developed my first game and mobile app at 15, and crafted a hand-gesture robot prototype for the disabled at 17. \n His achievements, including recognition from Tesla, BBC, Deutsche Welle, T-Motor, Silverbird TV, Anybotics, Agility Robotics & notable social media influencers, placed him among the top 200 influencers globally, alongside figures like Bill Gates & other top global leaders. \n Additionally, He once holds the 18th rank in robotics worldwide by Favikon. His entrepreneurial spirit earned me an entrepreneur programme from the University of Oxford, where he also holds a diploma in electrical and electronic engineering from the U.K, complemented by City and Guild certification.",
+  // },
 ];
 
 export default function Speakers() {
