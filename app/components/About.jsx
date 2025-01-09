@@ -2,18 +2,6 @@ import { FaRegCheckCircle } from "react-icons/fa";
 
 const whyData = [
   {
-    heading: "Advanced Tech Exhibitions",
-    body: "Witness groundbreaking innovations and cutting-edge technology as top creators showcase their trailblazing solutions to real-world challenges.",
-  },
-  {
-    heading: "Cheer for the Best ",
-    body: "Feel the rush and be inspired as 10 teams compete for top honors in RAIN Hackathon 1.0, winning up to 2 million naira prize up for grabs.",
-  },
-  {
-    heading: "Drone Flight",
-    body: "Experience the thrill of advanced drone technology in action, with live demonstrations that showcase precision, speed, and innovation in the skies.",
-  },
-  {
     heading: "Engage with Industry Giants",
     body: "From Leaders across fields AI and Robotics , come over to listen and be inspired to start your own revolution.",
   },
@@ -24,6 +12,18 @@ const whyData = [
   {
     heading: "Explore Oppurtunities",
     body: "From Scholarships to career-boosting connections, this summit plans to open doors that could change your future.",
+  },
+  {
+    heading: "Advanced Tech Exhibitions",
+    body: "Witness groundbreaking innovations and cutting-edge technology as top creators showcase their trailblazing solutions to real-world challenges.",
+  },
+  {
+    heading: "Cheer for the Best ",
+    body: "Feel the rush and be inspired as 10 teams compete for top honors in RAIN Hackathon 1.0, winning up to 2 million naira prize up for grabs.",
+  },
+  {
+    heading: "Drone Flight",
+    body: "Experience the thrill of advanced drone technology in action, with live demonstrations that showcase precision, speed, and innovation in the skies.",
   },
 ];
 export const About = () => {

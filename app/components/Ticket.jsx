@@ -5,17 +5,27 @@ export default function Ticket() {
   const ticketsImage = [
     {
       id: 1,
-      image: "/early-bird.png",
-      name: "Early Bird"
+      image: "/early-bird1.png",
+      name: "Early Bird without Access to Exhibition Room"
     },
     {
       id: 2,
-      image: "/late-comer.png",
-      name: "Late Comer"
+      image: "/early-bird2.png",
+      name: "Early Bird with Access to Exhibition Room"
+    },
+    {
+      id: 3,
+      image: "/late-comer1.png",
+      name: "Late Comer without Access to Exhibition Room"
+    },
+    {
+      id: 4,
+      image: "/late-comer2.png",
+      name: "Late Comer with Access to Exhibition Room"
     },
   ];
   return (
-    <section className="flex flex-col gap-10 py-10 lg:py-20" id="tickets">
+    <section className="flex flex-col gap-10 pt-10 lg:pt-20" id="tickets">
       <div>
         <h2 className="text-primary text-xs md:text-2xl font-medium">
           Tickets

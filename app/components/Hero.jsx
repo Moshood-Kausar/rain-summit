@@ -1,8 +1,8 @@
 import { Button } from "./shared/Button";
 
-export default function Hero() {
+export default function Hero ({updateShown}) {
   return (
-    <section className="container mx-auto pt-[118px] md:pt-[160px] pb-14 md:pb-[105px] px-4 md:px-10 lg:px-20 relative">
+    <section className={`container mx-auto ${updateShown? "pt-[238px] md:pt-[216px]": "pt-[118px] md:pt-[160px]"} pb-14 md:pb-[105px] px-4 md:px-10 lg:px-20 relative`}>
       <div>
         <h1 className="text-lg md:text-xl text-center font-semibold mx-auto w-fit h-fit rounded-full px-4 md:px-[33px] py-[10px] leading-normal text-[#4C4E1C] border border-dashed border-[#4C4E1C] mb-[18px] md:mb-10">
           RAIN Summit 1.0

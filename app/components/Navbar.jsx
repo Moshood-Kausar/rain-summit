@@ -8,9 +8,8 @@ import logo from "@/app/assets/rain_logo2.png";
 import mobileLogo from "@/app/assets/rain-logo-sm.png";
 import Countdown from '@/app/components/Countdown';
 
-export const Navbar = () => {
+export const Navbar = ({updateShown, setUpdateShown}) => {
   const [isNavOpened, setIsNavOpened] = useState(false);
-  const [updateShown, setUpdateShown] = useState(true);
 
   const navLinks = [
     { label: "About", href: "/#about", type: "link", variant: "text" },
@@ -25,7 +24,7 @@ export const Navbar = () => {
       className={`fixed top-0 z-50 w-full transition duration-200 bg-white md:bg-transparent`}
     >
      <div style={updateShown? {display: 'flex'} : {display: 'none'}} className="relative flex-col md:flex-row justify-center items-center text-center px-4 md:px-10 lg:px-20 py-4 hero-stat text-white min-h-10 font-medium gap-2">
-        The wait is almost over! Tick tock: <Countdown targetDate={'2025-01-25T00:00:00'} /> <Link href={'https://eventprime.co/e/rain-summit-1-0'} target="_blank" className="underline underline-offset-4">
+        The wait is almost over! <Countdown targetDate={'2025-01-25T00:00:00'} /> <Link href={'https://eventprime.co/e/rain-summit-1-0'} target="_blank" className="underline underline-offset-4">
           Get Your Ticket Now.
         </Link> 
         <button onClick={()=>setUpdateShown(false)} className="scale-125 hover:scale-110 absolute right-4 text-2xl font-medium leading-none transition duration-200">&times;</button>

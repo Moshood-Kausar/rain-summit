@@ -46,25 +46,26 @@ const Countdown = ({ targetDate }) => {
 
   return (
     <div
-      className={`${poppins.className} flex justify-between shrink-0 w-fit gap-4`}
+      className={`${poppins.className} flex justify-between shrink-0 w-fit gap-2 md:gap-3`}
     >
+      Tick tock: 
       <div className="flex items-center gap-1">
-        <h4 className="flex items-center justify-center text-xs md:text-xl mb-0.5">{days}</h4>
+        <h4 className="flex items-center justify-center">{days}</h4>
         <p className="text-xs md:text-sm text-center">d</p>
       </div>
       
       <div className="flex items-center gap-1">
-        <h4 className="flex items-center justify-center text-xs md:text-xl mb-0.5">{hours}</h4>
+        <h4 className="flex items-center justify-center">{hours}</h4>
         <p className="text-xs md:text-sm text-center">h</p>
       </div>
       
       <div className="flex items-center gap-1">
-        <h4 className="flex items-center justify-center text-xs md:text-xl mb-0.5">{minutes}</h4>
+        <h4 className="flex items-center justify-center">{minutes}</h4>
         <p className="text-xs md:text-sm text-center">m</p>
       </div>
       
       <div className="flex items-center gap-1">
-        <h4 className="flex items-center justify-center text-xs md:text-xl mb-0.5">{seconds}</h4>
+        <h4 className="flex items-center justify-center">{seconds}</h4>
         <p className="text-xs md:text-sm text-center">s.</p>
       </div>
     </div>
