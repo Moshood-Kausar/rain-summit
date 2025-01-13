@@ -10,7 +10,7 @@ import { Button } from "./shared/Button";
 
 export const speakerList = [
   {
-    id: 1,
+    id: 6,
     name: " Kemisola Bolarinwa",
     position: "Founder/CEO Nextwear Technologies",
     profile: "/Kemisola.jpeg",
@@ -19,7 +19,7 @@ export const speakerList = [
     tag_color: "#FF5733",
   },
   {
-    id: 2,
+    id: 5,
     name: "Dr. Segun Aina",
     position: "Chairman Opolo Global Innovation",
     profile: "/DrSegunAina.jpg",
@@ -38,7 +38,7 @@ export const speakerList = [
     tag_color: "#999999",
   },
   {
-    id: 4,
+    id: 3,
     name: "Professor Abiodun Musa Aibinu",
     position: "Vice Chancellor of Summit University",
     profile: "/abiodunmusa.jpeg",
@@ -47,7 +47,7 @@ export const speakerList = [
     tag_color: "#005C58",
   },
   {
-    id: 5,
+    id: 4,
     name: "Pharm Olu Akanmu",
     position: "Ex CEO Opay, Director of Lagos Business School",
     profile: "/Oluakanmu.jpg",
@@ -56,7 +56,7 @@ export const speakerList = [
     tag_color: "#005C58",
   },
   {
-    id: 6,
+    id: 2,
     name: "Dr Adesola Adeduntan",
     position: "President Sequoia Financial Limited & Fmr CEO First Bank Group",
     profile: "/AdesolaAdeduntan.jpg",
