@@ -74,6 +74,63 @@ export const speakerList = [
   //   profile: "/JoshuaOlaiya.png",
   //   bio: "Joshua Olaiya, Founder, CEO and Board Chairman of iAurora, also Founded the biggest tech podcast/community in Africa with a 20K podcast subcriber and had recently founded Africa's first, only and biggest rocket and drone manufacturing company. He's a young self-taught robotics engineer with seven years of experience. He began coding at 13 with Scratch, Python, and C++, developed my first game and mobile app at 15, and crafted a hand-gesture robot prototype for the disabled at 17. \n His achievements, including recognition from Tesla, BBC, Deutsche Welle, T-Motor, Silverbird TV, Anybotics, Agility Robotics & notable social media influencers, placed him among the top 200 influencers globally, alongside figures like Bill Gates & other top global leaders. \n Additionally, He once holds the 18th rank in robotics worldwide by Favikon. His entrepreneurial spirit earned me an entrepreneur programme from the University of Oxford, where he also holds a diploma in electrical and electronic engineering from the U.K, complemented by City and Guild certification.",
   // },
+  {
+    id: 10,
+    name: "Dr. Olusola Sayeed Ayoola",
+    position: "Founder and CEO RAIN",
+    profile: "/OlusolaSayeedAyoola.jpg",
+    bio: "Dr. Olusola Ayoola is the Founder and CEO of Robotics and Artificial Intelligence Nigeria (RAIN). With a PhD specializing in Robotics for Extreme Environments from the University of Manchester, Dr. Ayoola has been at the forefront of developing indigenous robotics and AI solutions tailored to address Africa's unique industrial challenges. His work spans critical sectors such as the energy, healthcare, and security industries. Through RAIN, Dr. Ayoola has spearheaded numerous projects, including unmanned ground vehicles, AI-driven surveillance systems, and real-time data collection technologies. He is also a prominent advocate for developing local capacity in AI and robotics, ensuring that Africa's talent can compete globally and drive technological innovations. He is a member of the AI4Development Reference Group at UNDP Nigeria",
+  },
+  {
+    id: 11,
+    name: "Maxwell Maduka",
+    position: "CTO, Terrahaptix",
+    profile: "/MaxwellMaduka.jpg",
+    bio: "I am an  aerial robotics engineer into research and development of mechatronic systems for 8 years now , co founder and CTO of terrhaptix which is Africa's largest multi domain drone manufactures.",
+  },
+  {
+    id: 12,
+    name: "Mr Kolapo Kola-Daisi",
+    position: "Daks Investment and Trading Company Ltd",
+    profile: "/KolapoKolaDaisi.jpeg",
+    bio: "",
+  },
+  {
+    id: 13,
+    name: "Mr Ebuka Obi David",
+    position: "CEO - Autogon AI",
+    profile: "/EbukaObiDavid.jpeg",
+    bio: "",
+  },
+  {
+    id: 14,
+    name: "Dr. Chuks Ekwueme",
+    position: "Chairman -  Uniccon Group",
+    profile: "/ChuksEkwueme.jpg",
+    bio: "",
+  },
+  {
+    id: 15,
+    name: "Mrs Aminat Ayoola",
+    position: "Director of Academics, RAIN",
+    profile: "/TripleA.png",
+    bio: "",
+  },
+  {
+    id: 16,
+    name: "Mr Naufal Ahmad",
+    position:
+      "DG Katsina State Directorate of Information and Communications Technology",
+    profile: "/NaufalAhmed.jpg",
+    bio: "",
+  },
+  {
+    id: 17,
+    name: "Dr. Chinedu Ogwus",
+    position: "Regional Director Africa, RAS",
+    profile: "/DrChineduOgwus.jpeg",
+    bio: "Eur Ing Dr. Chinedu Ogwus is a leading expert in Robotics and Autonomous Systems (RAS) and the Regional Director for Africa at the Society of Petroleum Engineers International. With over 23 years at TotalEnergies, he leverages AI and robotics to address energy challenges, including combating pipeline vandalism in Nigeria through innovative technologies like CNN and edge-based AI. A Chartered Engineer (CEng) and European Engineer (EUR ING), he holds three doctorates in Process Systems Engineering, Project Management, and Ethical Leadership. Dr. Ogwus is a Fellow of multiple institutes, adviser to the Energy Institute Africa, and a contributor to UK energy policies.",
+  },
 ];
 
 export default function Speakers() {
@@ -113,7 +170,7 @@ export default function Speakers() {
               key={speaker.id}
               className="swiper-slide flex flex-col items-center"
             >
-              <div className="h-80 w-full relative">
+              <div className="h-96 w-full relative">
                 <Image
                   src={speaker.profile}
                   alt={`Profile of ${speaker.name}`}

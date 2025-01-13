@@ -41,7 +41,7 @@ export default function Speakers() {
               key={speaker.id}
               className="border border-lightGreen rounded-xl flex flex-col gap-3 lg:flex-row lg:items-center overflow-hidden shadow-sm"
             >
-              <div className="h-96 lg:w-4/12 relative">
+              <div className="h-[450px] lg:w-4/12 relative">
                 <Image
                   src={speaker.profile}
                   alt={`Profile of ${speaker.name}`}
