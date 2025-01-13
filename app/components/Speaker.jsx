@@ -10,7 +10,6 @@ import { Button } from "./shared/Button";
 
 export const speakerList = [
   {
-    {
     id: 3,
     name: "Dr. Bosun Tijani",
     position:
@@ -20,6 +19,7 @@ export const speakerList = [
     tag: "Keynote Speaker",
     tag_color: "#999999",
   },
+  {
     id: 1,
     name: " Kemisola Bolarinwa",
     position: "Founder/CEO Nextwear Technologies",
