@@ -28,7 +28,7 @@ export const speakerList = [
     tag_color: "#16AA05",
   },
   {
-    id: 3,
+    id: 1,
     name: "Dr. Bosun Tijani",
     position:
       "Minister of Communications, Innovation and Digital Economy, Nigeria",
