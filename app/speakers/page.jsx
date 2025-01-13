@@ -4,6 +4,7 @@ import { speakerList } from "../components/Speaker";
 import Image from "next/image";
 import Footer from "../components/Footer";
 import { useState } from "react";
+import { PiDotFill } from "react-icons/pi";
 
 function truncateBio(bio, wordCount) {
   return (
@@ -11,6 +12,14 @@ function truncateBio(bio, wordCount) {
     (bio.split(" ").length > wordCount ? "..." : "")
   );
 }
+
+// const tagColors = {
+//   ai_panelist: "text-blue-500",
+//   Speaker: "bg-green-500 text-white py-1 px-3 rounded-full",
+//   energy: "text-yellow-500",
+//   ai: "text-purple-500",
+//   // Add more tags and their corresponding colors as needed
+// };
 
 export default function Speakers() {
   const [updateShown, setUpdateShown] = useState(true);
@@ -51,7 +60,14 @@ export default function Speakers() {
               </div>
 
               <div className="lg:w-8/12 px-3 md:px-4 lg:px-5">
-                <h2 className="font-semibold text-lg">{speaker.name}</h2>
+                <div className="flex gap-2 items-center">
+                  <h2 className="font-semibold text-lg">{speaker.name}</h2>{" "}
+                  <PiDotFill />
+                  <p className="text-[12px] py-05 px-3 rounded-full text-white" style={{ background: speaker.tag_color }}>
+                    {speaker.tag}
+                  </p>{" "}
+                </div>
+
                 <p className="text-sm text-gray-500">{speaker.position}</p>
                 <p className="text-clip my-5 text-sm">
                   {truncateBio(speaker.bio, 150)}
