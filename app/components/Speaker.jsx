@@ -10,7 +10,7 @@ import { Button } from "./shared/Button";
 
 export const speakerList = [
   {
-    id: 1,
+    id: 3,
     name: " Kemisola Bolarinwa",
     position: "Founder/CEO Nextwear Technologies",
     profile: "/Kemisola.jpeg",
@@ -28,7 +28,7 @@ export const speakerList = [
     tag_color: "#16AA05",
   },
   {
-    id: 3,
+    id: 1,
     name: "Dr. Bosun Tijani",
     position:
       "Minister of Communications, Innovation and Digital Economy, Nigeria",
@@ -96,7 +96,7 @@ export const speakerList = [
     position: "Founder and CEO RAIN",
     profile: "/OlusolaSayeedAyoola.jpg",
     bio: "Dr. Olusola Ayoola is the Founder and CEO of Robotics and Artificial Intelligence Nigeria (RAIN). With a PhD specializing in Robotics for Extreme Environments from the University of Manchester, Dr. Ayoola has been at the forefront of developing indigenous robotics and AI solutions tailored to address Africa's unique industrial challenges. His work spans critical sectors such as the energy, healthcare, and security industries. Through RAIN, Dr. Ayoola has spearheaded numerous projects, including unmanned ground vehicles, AI-driven surveillance systems, and real-time data collection technologies. He is also a prominent advocate for developing local capacity in AI and robotics, ensuring that Africa's talent can compete globally and drive technological innovations. He is a member of the AI4Development Reference Group at UNDP Nigeria",
-    tag: "Team",
+    tag: "RAIN Team",
     tag_color: "#E3BD00",
   },
   {
