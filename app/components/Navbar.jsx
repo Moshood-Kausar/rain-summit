@@ -23,7 +23,7 @@ export const Navbar = ({updateShown, setUpdateShown}) => {
     <header
       className={`fixed top-0 z-50 w-full transition duration-200 bg-white md:bg-transparent`}
     >
-     <div style={updateShown? {display: 'flex'} : {display: 'none'}} className="relative flex-col md:flex-row justify-center items-center text-center px-4 md:px-10 lg:px-20 py-4 hero-stat text-white min-h-10 font-medium gap-2">
+     <div style={updateShown? {display: 'flex'} : {display: 'none'}} className="relative flex-col md:flex-row justify-center items-center text-center px-4 md:px-10 lg:px-20 py-4 hero-stat text-white min-h-10 font-medium gap-2 z-50">
         The wait is almost over! <Countdown targetDate={'2025-01-25T00:00:00'} /> <Link href={'https://eventprime.co/e/rain-summit-1-0'} target="_blank" className="underline underline-offset-4">
           Get Your Ticket Now.
         </Link> 
