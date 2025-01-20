@@ -9,8 +9,8 @@ import "../globals.css";
 import { Button } from "./shared/Button";
 
 export const speakerList = [
-   {
-    id: 10,
+  {
+    id: 1,
     name: "Dr. Olusola Sayeed Ayoola",
     position: "Founder and CEO RAIN",
     profile: "/OlusolaSayeedAyoola.jpg",
@@ -19,7 +19,7 @@ export const speakerList = [
     tag_color: "#E3BD00",
   },
   {
-    id: 3,
+    id: 2,
     name: "Dr. Bosun Tijani",
     position:
       "Minister of Communications, Innovation and Digital Economy, Nigeria",
@@ -28,8 +28,8 @@ export const speakerList = [
     tag: "Keynote Speaker",
     tag_color: "#999999",
   },
-    {
-    id: 6,
+  {
+    id: 3,
     name: "Dr Adesola Adeduntan",
     position: "President Sequoia Financial Limited & Fmr CEO First Bank Group",
     profile: "/AdesolaAdeduntan.jpg",
@@ -37,7 +37,7 @@ export const speakerList = [
     tag: "Special Guest",
     tag_color: "#800080",
   },
-   {
+  {
     id: 4,
     name: "Professor Abiodun Musa Aibinu",
     position: "Vice Chancellor of Summit University",
@@ -46,7 +46,7 @@ export const speakerList = [
     tag: "Speaker",
     tag_color: "#005C58",
   },
-   {
+  {
     id: 5,
     name: "Pharm Olu Akanmu",
     position: "Ex CEO Opay, Director of Lagos Business School",
@@ -55,8 +55,8 @@ export const speakerList = [
     tag: "Speaker",
     tag_color: "#005C58",
   },
-   {
-    id: 2,
+  {
+    id: 6,
     name: "Dr. Segun Aina",
     position: "Chairman Opolo Global Innovation",
     profile: "/DrSegunAina.jpg",
@@ -65,7 +65,7 @@ export const speakerList = [
     tag_color: "#16AA05",
   },
   {
-    id: 1,
+    id: 7,
     name: " Kemisola Bolarinwa",
     position: "Founder/CEO Nextwear Technologies",
     profile: "/Kemisola.jpeg",
@@ -73,8 +73,8 @@ export const speakerList = [
     tag: "RDA Panelist",
     tag_color: "#FF5733",
   },
-   {
-    id: 17,
+  {
+    id: 8,
     name: "Dr. Chinedu Ogwus",
     position: "Regional Director Africa, RAS",
     profile: "/DrChineduOgwus.jpeg",
@@ -83,7 +83,7 @@ export const speakerList = [
     tag_color: "#1B44EA",
   },
   {
-    id: 7,
+    id: 9,
     name: "Dr Olabunmi Ajala",
     position:
       "National Director National Center for Artificial Intelligence and Robotics (NCAIR)",
@@ -93,7 +93,7 @@ export const speakerList = [
     tag_color: "#1B44EA",
   },
   {
-    id: 8,
+    id: 10,
     name: "Babatunde Fatai",
     position: "Manager, Emerging Technologies",
     profile: "/Babatunde.jpeg",
@@ -102,7 +102,7 @@ export const speakerList = [
     tag_color: "#16AA05",
   },
   {
-    id: 13,
+    id: 11,
     name: "Mr Ebuka Obi David",
     position: "CEO - Autogon AI",
     profile: "/EbukaObiDavid.jpeg",
@@ -111,7 +111,7 @@ export const speakerList = [
     tag_color: "#16AA05",
   },
   {
-    id: 16,
+    id: 12,
     name: "Mr Naufal Ahmad",
     position:
       "DG Katsina State Directorate of Information and Communications Technology",
@@ -121,15 +121,15 @@ export const speakerList = [
     tag_color: "#16AA05",
   },
   // {
-  //   id: 9,
+  //   id: 13,
   //   name: "Joshua Olaiya ",
   //   position: "Founder, CEO and Board Chairman of iAurora",
   //   profile: "/JoshuaOlaiya.png",
   //   bio: "Joshua Olaiya, Founder, CEO and Board Chairman of iAurora, also Founded the biggest tech podcast/community in Africa with a 20K podcast subcriber and had recently founded Africa's first, only and biggest rocket and drone manufacturing company. He's a young self-taught robotics engineer with seven years of experience. He began coding at 13 with Scratch, Python, and C++, developed my first game and mobile app at 15, and crafted a hand-gesture robot prototype for the disabled at 17. \n His achievements, including recognition from Tesla, BBC, Deutsche Welle, T-Motor, Silverbird TV, Anybotics, Agility Robotics & notable social media influencers, placed him among the top 200 influencers globally, alongside figures like Bill Gates & other top global leaders. \n Additionally, He once holds the 18th rank in robotics worldwide by Favikon. His entrepreneurial spirit earned me an entrepreneur programme from the University of Oxford, where he also holds a diploma in electrical and electronic engineering from the U.K, complemented by City and Guild certification.",
   // },
- 
+
   {
-    id: 11,
+    id: 14,
     name: "Maxwell Maduka",
     position: "CTO, Terrahaptix",
     profile: "/MaxwellMaduka.jpg",
@@ -138,7 +138,7 @@ export const speakerList = [
     tag_color: "#FF5733",
   },
   {
-    id: 14,
+    id: 15,
     name: "Dr. Chuks Ekwueme",
     position: "Chairman -  Uniccon Group",
     profile: "/ChuksEkwueme.jpg",
@@ -147,7 +147,7 @@ export const speakerList = [
     tag_color: "#FF5733",
   },
   {
-    id: 12,
+    id: 16,
     name: "Mr Kolapo Kola-Daisi",
     position: "Daks Investment and Trading Company Ltd",
     profile: "/KolapoKolaDaisi.jpeg",
@@ -155,10 +155,9 @@ export const speakerList = [
     tag: "RDA Panelist",
     tag_color: "#FF5733",
   },
-  
-  
+
   {
-    id: 15,
+    id: 17,
     name: "Mrs Aminat Ayoola",
     position: "Director of Academics, RAIN",
     profile: "/TripleA.png",

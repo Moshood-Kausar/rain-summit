@@ -45,36 +45,38 @@ export default function Speakers() {
         </div>
 
         <div className="flex flex-col gap-10 lg:gap-20">
-          {speakerList.map((speaker) => (
-            <div
-              key={speaker.id}
-              className="border border-lightGreen rounded-xl flex flex-col gap-3 lg:flex-row lg:items-center overflow-hidden shadow-sm"
-            >
-              <div className="h-[450px] lg:w-4/12 relative">
-                <Image
-                  src={speaker.profile}
-                  alt={`Profile of ${speaker.name}`}
-                  fill
-                  className="object-cover h-full"
-                />
-              </div>
-
-              <div className="lg:w-8/12 px-3 md:px-4 lg:px-5">
-                <div className="flex gap-2 items-center">
-                  <h2 className="font-semibold text-lg">{speaker.name}</h2>{" "}
-                  <PiDotFill />
-                  <p className="text-[12px] py-05 px-3 rounded-full text-white" style={{ background: speaker.tag_color }}>
-                    {speaker.tag}
-                  </p>{" "}
+          {speakerList
+            .sort((a, b) => a.id - b.id)
+            .map((speaker) => (
+              <div
+                key={speaker.id}
+                className="border border-lightGreen rounded-xl flex flex-col gap-3 lg:flex-row lg:items-center overflow-hidden shadow-sm"
+              >
+                <div className="h-[450px] lg:w-4/12 relative">
+                  <Image
+                    src={speaker.profile}
+                    alt={`Profile of ${speaker.name}`}
+                    fill
+                    className="object-cover h-full"
+                  />
                 </div>
 
-                <p className="text-sm text-gray-500">{speaker.position}</p>
-                <p className="text-clip my-5 text-sm">
-                  {truncateBio(speaker.bio, 150)}
-                </p>
+                <div className="lg:w-8/12 px-3 md:px-4 lg:px-5">
+                  <div className="flex gap-2 items-center">
+                    <h2 className="font-semibold text-lg">{speaker.name}</h2>{" "}
+                    <PiDotFill />
+                    <p className="text-[12px] py-0.5 px-3 rounded-full text-white" style={{ background: speaker.tag_color }}>
+                      {speaker.tag}
+                    </p>{" "}
+                  </div>
+
+                  <p className="text-sm text-gray-500">{speaker.position}</p>
+                  <p className="text-clip my-5 text-sm">
+                    {truncateBio(speaker.bio, 150)}
+                  </p>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
         </div>
       </section>
 
