@@ -21,21 +21,14 @@ export default function Schedule() {
           <h2 className="text-dark mt-2.5 text-lg md:text-3xl font-semibold">
             Our Event Full Schedule
           </h2>
-          <p className="text-center text-sm md:text-lg mt-2">
-            {/* We&apos;re bringing together some of the most audacious thinkers and
-            doers in African tech, working on everuthing from fintech to
-            commerce, energy, Web3 and AI, telco, cloud and more. */}
-          </p>
         </div>
 
-        <div className="">
-          <table className="max-w-7xl lg:w-[1000px] border rounded-xl border-gray-300 ">
+        {/* <div className="w-auto">
+          <table className="max-w-7xl w-auto clip lg:w-[1000px] border rounded-xl border-gray-300 overflow-x-scroll">
             <thead>
               <tr>
                 <th className="w-5/12  border border-gray-300 p-2">Event</th>
-                <th className="w-3/12 border border-gray-300 p-2">
-                  Anchor
-                </th>
+                <th className="w-3/12 border border-gray-300 p-2">Anchor</th>
                 <th className="w-2/12  border border-gray-300 p-2">Time</th>
                 <th className="w-2/12 border border-gray-300 p-2">Duration</th>
               </tr>
@@ -44,10 +37,10 @@ export default function Schedule() {
               {tableData.map((data) => (
                 <tr key={data.id}>
                   <td className="text-dark border border-gray-300 text-center px-2 py-4">
-                    {data.event} 
-                    {/* <p className="text-gray-500 text-center text-sm lg:hidden">
+                    {data.event}
+                     <p className="text-gray-500 text-center text-sm lg:hidden">
                       {data.subtext}
-                    </p> */}
+                    </p>
                   </td>
                   <td className="text-gray-500 border border-gray-300 text-center px-2 py-4">
                     {data.subtext}
@@ -56,6 +49,42 @@ export default function Schedule() {
                     {data.time}
                   </td>
                   <td className="text-gray-500 border border-gray-300 text-center">
+                    {data.duration}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div> */}
+
+        <div className="">
+          <table className="max-w-6xl lg:w-[800px] border border-gray-300 rounded-xl">
+            <thead>
+              <tr>
+                <th className="w-4/6 text-left border border-gray-300 p-2">
+                  Event
+                </th>
+                <th className="w-1/6 text-left border border-gray-300 p-2">
+                  Time
+                </th>
+                <th className="w-1/6 text-left border border-gray-300 p-2">
+                  Duration
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {tableData.map((data) => (
+                <tr key={data.id}>
+                  <td className="text-dark border border-gray-300 p-2">
+                    <h2 className="font-semibold">{data.event}</h2>{" "}
+                    <p className="font-normal text-sm text-gray-400">
+                      {data.subtext}
+                    </p>
+                  </td>
+                  <td className="text-gray-500 border border-gray-300 p-2">
+                    {data.time}
+                  </td>
+                  <td className="text-gray-500 border border-gray-300 p-2">
                     {data.duration}
                   </td>
                 </tr>
