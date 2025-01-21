@@ -55,26 +55,9 @@ export const speakerList = [
     tag: "Speaker",
     tag_color: "#005C58",
   },
+
   {
     id: 6,
-    name: "Dr. Segun Aina",
-    position: "Chairman Opolo Global Innovation",
-    profile: "/DrSegunAina.jpg",
-    bio: "Dr Segun Aina is a global professional banking leader, internationally rated fintech ecosystem builder and respected futurist. With three decades of distinguished banking career in three banks including six-year tenure as Bank Chief Executive Officer, Dr Aina is the inaugural Chairman of Global Banking Education Standards Board (GBEStB), former Chairman of Accion Bank Nigeria, Odua Investment Co Ltd, former Director of First Atlantic Bank Ghana, among other past board positions. He served as 17th President of Chartered Institute of Bankers of Nigeria. He is the founding President and currently Chairman, Board of Trustees of Fintech Association of Nigeria (FINTECHNGR), founding President of the Africa Fintech Network (AFN) , founding member of the Board of Global Fintech Alliance and pioneer Chairman of International Digital Economies Association (IDEA) In these roles, he has championed, coordinated, and led advocacy and initiatives aimed at improving financial and payment systems, banking regulations, financial literacy and innovation in financial services across Africa and globally. As an innovation ecosystem builder, Dr Aina who has been variously described as Africa's Fintech Grandmaster, has incubated a number of successful fintech startups and sits on the Boards of various institutions in Banking, Insurance, Agriculture and Technology sectors. He also serves as a member of the UK- Africa Fintech Investment Group, a UK Govt initiative. Dr Aina's unique contributions to the academic sector includes membership of the pioneer Advancement Board of Obafemi Awolowo University and currently Chairman Advancement Board of Federal University of Technology Akure, co-Chairman National Think Tank on Research for Innovation and Policy (initiative of University of Ibadan Research Foundation of which he is a member) and Member, Osun State University Advancement Board. Dr. Aina is a distinguished alumnus of University of Lagos and University of Ibadan and had executive business education in INSEAD France, Harvard Business School (HBS), IMD Switzerland, and the Lagos Business School (LBS). He is Fellow of London Institute of Banking and Finance, Chartered Institute of Bankers of Nigeria, Charteted nstitute of Directors, Institute of Chartered Arbitrators among others. He holds the Nigeria National honours of Officer of the Order of Federal Republic (OFR) since and has received honorary doctorate degrees from four renowned Universities.",
-    tag: "AI Panelist",
-    tag_color: "#16AA05",
-  },
-  {
-    id: 7,
-    name: " Kemisola Bolarinwa",
-    position: "Founder/CEO Nextwear Technologies",
-    profile: "/Kemisola.jpeg",
-    bio: "Bolarinwa Kemisola is a distinguished Robotics and Embedded System Engineer with over 13 years of exceptional expertise in the technology sector. She is the Founder and CEO of Nextwear Technologies, Nigeria's pioneering wearable technology startup. Through Nextwear Technologies, Kemisola designs and develops innovative wearable devices that address critical health-related challenges. Among her groundbreaking achievements is the invention of the Smart Bra Cup Diagnostic Device, a wearable solution designed to detect the earliest stages of breast cancer. This revolutionary innovation has garnered global recognition and numerous awards, positioning her as a trailblazer in healthcare technology. Kemisola's passion for leveraging technology to improve lives extends beyond her professional achievements. She is a staunch advocate for STEM education, particularly for girls, working tirelessly to bridge the gender gap in STEM fields. As the President of the Women-in-ICT Foundation, she serves as an influential role model, empowering young women and encouraging their participation in the male-dominated tech industry. Her unwavering dedication to innovation and societal impact has earned her numerous accolades, including induction into the Nigerian Women First Achievers Hall of Fame by the Federal Government of Nigeria. She has been recognized by UN Women for her efforts in promoting gender equality and women empowerment through gender-responsive technology. Kemisola's outstanding achievements have also been celebrated through the Lord's Achievers Award for Best Innovative Excellence in Science, the Standard Chartered Bank Women in Technology Award, and the Origo Canada Innovation Impact Award. She has been honored as a Global SDG Advocate and Practitioner by Alphazulu Advocate, UK, and received the Health Tech Innovation of the Year Award at the Africa Tech Festival. Additionally, her exemplary leadership has led to her inclusion in the Barack Obama Africa Leaders Network and recognition with the Royal African Young Leadership Award. Kemisola is also an Affiliate of the International Telecommunication Union (ITU), further solidifying her role as a global advocate for technological advancement and innovation. Bolarinwa Kemisola's professional journey is a testament to her relentless commitment to advancing technology, promoting gender equality, and driving transformative healthcare innovations.",
-    tag: "RDA Panelist",
-    tag_color: "#FF5733",
-  },
-  {
-    id: 8,
     name: "Dr. Chinedu Ogwus",
     position: "Regional Director Africa, RAS",
     profile: "/DrChineduOgwus.jpeg",
@@ -83,7 +66,16 @@ export const speakerList = [
     tag_color: "#1B44EA",
   },
   {
-    id: 9,
+    id: 7,
+    name: "Dr Chinemelu Ezeh",
+    position: " Robotics Engineer and CEO, Amatou Technologies, London",
+    profile: "/DrChi.jpeg",
+    bio: "",
+    tag: "Judge",
+    tag_color: "#1B44EA",
+  },
+  {
+    id: 8,
     name: "Dr Olabunmi Ajala",
     position:
       "National Director National Center for Artificial Intelligence and Robotics (NCAIR)",
@@ -93,11 +85,20 @@ export const speakerList = [
     tag_color: "#1B44EA",
   },
   {
-    id: 10,
+    id: 9,
     name: "Babatunde Fatai",
     position: "Manager, Emerging Technologies",
     profile: "/Babatunde.jpeg",
     bio: "Babatunde Fatai is a visionary leader in Africa's emerging technologies ecosystem, driving innovation and digital transformation across the continent. He is currently the emerging Technologies Manager at MTN Nigeria and has worked for and collaborated with multinationals such as PwC and Unilever, he pioneers advancements in AI, spatial computing, cloud computing, and other emerging technologies. A passionate futurist and advocate for youth empowerment and tech adoption, Babatunde hosts the XRAtlas Podcast and founded the African XR Community, inspiring a connected and innovative Africa. ",
+    tag: "AI Panelist",
+    tag_color: "#16AA05",
+  },
+  {
+    id: 10,
+    name: "Dr. Segun Aina",
+    position: "Chairman Opolo Global Innovation",
+    profile: "/DrSegunAina.jpg",
+    bio: "Dr Segun Aina is a global professional banking leader, internationally rated fintech ecosystem builder and respected futurist. With three decades of distinguished banking career in three banks including six-year tenure as Bank Chief Executive Officer, Dr Aina is the inaugural Chairman of Global Banking Education Standards Board (GBEStB), former Chairman of Accion Bank Nigeria, Odua Investment Co Ltd, former Director of First Atlantic Bank Ghana, among other past board positions. He served as 17th President of Chartered Institute of Bankers of Nigeria. He is the founding President and currently Chairman, Board of Trustees of Fintech Association of Nigeria (FINTECHNGR), founding President of the Africa Fintech Network (AFN) , founding member of the Board of Global Fintech Alliance and pioneer Chairman of International Digital Economies Association (IDEA) In these roles, he has championed, coordinated, and led advocacy and initiatives aimed at improving financial and payment systems, banking regulations, financial literacy and innovation in financial services across Africa and globally. As an innovation ecosystem builder, Dr Aina who has been variously described as Africa's Fintech Grandmaster, has incubated a number of successful fintech startups and sits on the Boards of various institutions in Banking, Insurance, Agriculture and Technology sectors. He also serves as a member of the UK- Africa Fintech Investment Group, a UK Govt initiative. Dr Aina's unique contributions to the academic sector includes membership of the pioneer Advancement Board of Obafemi Awolowo University and currently Chairman Advancement Board of Federal University of Technology Akure, co-Chairman National Think Tank on Research for Innovation and Policy (initiative of University of Ibadan Research Foundation of which he is a member) and Member, Osun State University Advancement Board. Dr. Aina is a distinguished alumnus of University of Lagos and University of Ibadan and had executive business education in INSEAD France, Harvard Business School (HBS), IMD Switzerland, and the Lagos Business School (LBS). He is Fellow of London Institute of Banking and Finance, Chartered Institute of Bankers of Nigeria, Charteted nstitute of Directors, Institute of Chartered Arbitrators among others. He holds the Nigeria National honours of Officer of the Order of Federal Republic (OFR) since and has received honorary doctorate degrees from four renowned Universities.",
     tag: "AI Panelist",
     tag_color: "#16AA05",
   },
@@ -120,6 +121,7 @@ export const speakerList = [
     tag: "AI Panelist",
     tag_color: "#16AA05",
   },
+
   // {
   //   id: 13,
   //   name: "Joshua Olaiya ",
@@ -139,6 +141,15 @@ export const speakerList = [
   },
   {
     id: 15,
+    name: " Kemisola Bolarinwa",
+    position: "Founder/CEO Nextwear Technologies",
+    profile: "/Kemisola.jpeg",
+    bio: "Bolarinwa Kemisola is a distinguished Robotics and Embedded System Engineer with over 13 years of exceptional expertise in the technology sector. She is the Founder and CEO of Nextwear Technologies, Nigeria's pioneering wearable technology startup. Through Nextwear Technologies, Kemisola designs and develops innovative wearable devices that address critical health-related challenges. Among her groundbreaking achievements is the invention of the Smart Bra Cup Diagnostic Device, a wearable solution designed to detect the earliest stages of breast cancer. This revolutionary innovation has garnered global recognition and numerous awards, positioning her as a trailblazer in healthcare technology. Kemisola's passion for leveraging technology to improve lives extends beyond her professional achievements. She is a staunch advocate for STEM education, particularly for girls, working tirelessly to bridge the gender gap in STEM fields. As the President of the Women-in-ICT Foundation, she serves as an influential role model, empowering young women and encouraging their participation in the male-dominated tech industry. Her unwavering dedication to innovation and societal impact has earned her numerous accolades, including induction into the Nigerian Women First Achievers Hall of Fame by the Federal Government of Nigeria. She has been recognized by UN Women for her efforts in promoting gender equality and women empowerment through gender-responsive technology. Kemisola's outstanding achievements have also been celebrated through the Lord's Achievers Award for Best Innovative Excellence in Science, the Standard Chartered Bank Women in Technology Award, and the Origo Canada Innovation Impact Award. She has been honored as a Global SDG Advocate and Practitioner by Alphazulu Advocate, UK, and received the Health Tech Innovation of the Year Award at the Africa Tech Festival. Additionally, her exemplary leadership has led to her inclusion in the Barack Obama Africa Leaders Network and recognition with the Royal African Young Leadership Award. Kemisola is also an Affiliate of the International Telecommunication Union (ITU), further solidifying her role as a global advocate for technological advancement and innovation. Bolarinwa Kemisola's professional journey is a testament to her relentless commitment to advancing technology, promoting gender equality, and driving transformative healthcare innovations.",
+    tag: "RDA Panelist",
+    tag_color: "#FF5733",
+  },
+  {
+    id: 16,
     name: "Dr. Chuks Ekwueme",
     position: "Chairman -  Uniccon Group",
     profile: "/ChuksEkwueme.jpg",
@@ -147,7 +158,7 @@ export const speakerList = [
     tag_color: "#FF5733",
   },
   {
-    id: 16,
+    id: 17,
     name: "Mr Kolapo Kola-Daisi",
     position: "Daks Investment and Trading Company Ltd",
     profile: "/KolapoKolaDaisi.jpeg",
@@ -157,7 +168,7 @@ export const speakerList = [
   },
 
   {
-    id: 17,
+    id: 18,
     name: "Mrs Aminat Ayoola",
     position: "Director of Academics, RAIN",
     profile: "/TripleA.png",
